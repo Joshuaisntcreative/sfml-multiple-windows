@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build SFML Project",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-B", "${workspaceFolder}/build",
+                "-S", "${workspaceFolder}/sfml_template",
+                "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=${workspaceFolder}/build/bin",
+                "-DCMAKE_BUILD_TYPE=Debug"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Compile SFML Project",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build"
+            ],
+            "dependsOn": "Build SFML Project",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-1/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate.dir
+C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-1/build/_deps/vorbis-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-1/build/_deps/vorbis-subbuild/CMakeFiles/rebuild_cache.dir
