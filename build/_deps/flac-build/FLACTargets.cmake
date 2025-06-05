@@ -51,15 +51,15 @@ add_library(FLAC::FLAC STATIC IMPORTED)
 
 set_target_properties(FLAC::FLAC PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "\$<\$<NOT:\$<BOOL:OFF>>:FLAC__NO_DLL>"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-1/build/_deps/flac-src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-src/include"
   INTERFACE_LINK_LIBRARIES "\$<\$<BOOL:1>:m>;Ogg::ogg"
 )
 
-# Import target "FLAC::FLAC" for configuration "Debug"
-set_property(TARGET FLAC::FLAC APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+# Import target "FLAC::FLAC" for configuration ""
+set_property(TARGET FLAC::FLAC APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(FLAC::FLAC PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C;RC"
-  IMPORTED_LOCATION_DEBUG "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-1/build/_deps/sfml-build/lib/libFLACd.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C;RC"
+  IMPORTED_LOCATION_NOCONFIG "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-build/lib/libFLAC.a"
   )
 
 # Make sure the targets which have been exported in some other
