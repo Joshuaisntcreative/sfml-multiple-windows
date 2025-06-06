@@ -32,17 +32,11 @@ int main(){
 
         if (mode == KINEMATICS)
         {
-            sf::CircleShape circle(50.f);
-            circle.setFillColor(sf::Color::Green);
-            circle.setPosition({100, 100});
-            window.draw(circle);
+            drawKinematics(window);
         }
         else
         {
-            sf::RectangleShape rect(sf::Vector2f(100.f, 50.f));
-            rect.setFillColor(sf::Color::Red);
-            rect.setPosition({200, 200});
-            window.draw(rect);
+            drawNewton(window);
         }
         //window.draw(label);
         window.display();
