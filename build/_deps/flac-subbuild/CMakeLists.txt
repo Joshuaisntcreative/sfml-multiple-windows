@@ -18,10 +18,10 @@ project(flac-populate NONE)
 
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
-set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
-set(GIT_VERSION_STRING [==[2.40.1.windows.1]==])
+set(GIT_EXECUTABLE [==[C:/msys64/usr/bin/git.exe]==])
+set(GIT_VERSION_STRING [==[2.43.2]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Program Files/Git/cmd/git.exe;2.40.1.windows.1]==]
+  [==[C:/msys64/usr/bin/git.exe;2.43.2]==]
 )
 
 
