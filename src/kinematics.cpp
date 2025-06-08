@@ -18,8 +18,8 @@ void drawKinematics(sf::RenderWindow &window)
     const double bigG = 6.674e-3f;
 
     double massOfEarth = 5.f;
-    double massOfSun = 50.f;
-    float velocity = 0.0f;
+    double massOfSun = 5.34e9f;
+    sf::Vector2f velocity = {0.f, -200.f};
 
     sf::Clock clock;
 
@@ -31,17 +31,25 @@ void drawKinematics(sf::RenderWindow &window)
                 window.close();
         }
         float deltaTime = clock.restart().asSeconds();
-
-        massOfSun += 5.f;
-        float distance = earth.getPosition().x - sun.getPosition().x;
+        sf::Vector2f position = earth.getPosition();
 
 
-        float gravitationalForce = (bigG * massOfEarth * massOfSun)/distance * distance;
-        float centripetalAcceleration = gravitationalForce / massOfEarth;
-        velocity -= sqrt(centripetalAcceleration/distance);
-        float position = earth.getPosition().x;
-        position += velocity*deltaTime;
-        earth.setPosition({position,300.f});
+        sf::Vector2f direction = sun.getPosition() - earth.getPosition();
+        float distance = sqrt(pow(direction.x,2) + pow(direction.y,2));
+
+        float gravitationalForce = -(bigG * massOfEarth * massOfSun)/(distance * distance);
+
+        // massOfSun += 8000.f;
+
+
+        sf::Vector2f normalizedDirection = direction / distance;
+
+        sf::Vector2f acceleration = normalizedDirection * (static_cast<float>(gravitationalForce)/static_cast<float>(massOfEarth));
+
+        velocity -= acceleration * deltaTime;
+        position += velocity * deltaTime;
+
+        earth.setPosition(position);
 
         window.clear();
         window.draw(earth);
