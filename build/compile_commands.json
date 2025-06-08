@@ -1,21 +1,27 @@
 [
 {
   "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\main.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\main.cpp\"",
   "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\main.cpp",
   "output": "CMakeFiles\\main.dir\\src\\main.cpp.obj"
 },
 {
   "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -o CMakeFiles\\main.dir\\src\\kinematics.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\kinematics.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\kinematics.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\kinematics.cpp\"",
   "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\kinematics.cpp",
   "output": "CMakeFiles\\main.dir\\src\\kinematics.cpp.obj"
 },
 {
   "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -o CMakeFiles\\main.dir\\src\\newton.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\newton.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\newton.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\newton.cpp\"",
   "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\newton.cpp",
   "output": "CMakeFiles\\main.dir\\src\\newton.cpp.obj"
+},
+{
+  "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\tension.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\tension.cpp\"",
+  "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\tension.cpp",
+  "output": "CMakeFiles\\main.dir\\src\\tension.cpp.obj"
 },
 {
   "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",

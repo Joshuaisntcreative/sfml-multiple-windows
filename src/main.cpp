@@ -1,14 +1,17 @@
 #include <SFML/Graphics.hpp>
 #include "kinematics.hpp"
 #include "newton.hpp"
+#include "tension.hpp"
 
 enum Mode {
     KINEMATICS,
-    NEWTON
+    NEWTON,
+    TENSION
 };
 
 int main(){
-    sf::RenderWindow window(sf::VideoMode({800,600}),  "Physics Mode Switcher");
+    sf::RenderWindow window(sf::VideoMode({1920,1080}),  "Physics Mode Switcher");
+    //Change this mode to the given enums provided above to alternate between simulations
     Mode mode = KINEMATICS;
 
     while (window.isOpen())
@@ -19,24 +22,20 @@ int main(){
             {
                 window.close();
             }
-            else if (auto keyEvent = event->getIf<sf::Event::KeyPressed>(); keyEvent != nullptr)
-            {
-                if (keyEvent->code == sf::Keyboard::Key::Space)
-                {
-                    mode = (mode == KINEMATICS) ? NEWTON : KINEMATICS;
-                }
-            }
         }
 
         window.clear();
 
-        if (mode == KINEMATICS)
-        {
+        switch(mode){
+        case KINEMATICS:
             drawKinematics(window);
-        }
-        else
-        {
+            break;
+        case NEWTON:
             drawNewton(window);
+            break;
+        case TENSION:
+            drawTension(window);
+            break;
         }
         //window.draw(label);
         window.display();

@@ -1,37 +1,37 @@
 # ninja log v5
 48	7858	7707848128926979	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	b262c3b35008be5
-340	385	7710199534792417	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	4b137ffd9f0a5cf8
-431	494	7710199535872421	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	92550100e11dd5dd
-11	175	0	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	a1884a2cdf128889
-431	494	7710199535872421	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	92550100e11dd5dd
-385	431	7710199535242406	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f76c9ace1dd104b6
+261	305	7710895159230737	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	4b137ffd9f0a5cf8
+349	411	7710895160285728	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	92550100e11dd5dd
+11	115	0	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	a1884a2cdf128889
+349	411	7710895160285728	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	92550100e11dd5dd
+305	349	7710895159670730	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f76c9ace1dd104b6
+349	411	7710895160285728	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	92550100e11dd5dd
+165	213	7710895158305722	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	c60393ffb31028e2
 2	48	7707848050823521	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	7fce662d4de228e2
-431	494	7710199535872421	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	92550100e11dd5dd
-245	291	7710199533847421	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	c60393ffb31028e2
 48	7858	7707848128926979	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	b262c3b35008be5
-291	340	7710199534337424	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	720413a0559ee2dc
-291	340	7710199534337424	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	720413a0559ee2dc
-245	291	7710199533847421	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	c60393ffb31028e2
-340	385	7710199534792417	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	4b137ffd9f0a5cf8
-385	431	7710199535242406	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f76c9ace1dd104b6
-11	175	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	a1884a2cdf128889
-176	244	7710199533377421	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	d2559bfa5c4f941
-176	244	7710199533377421	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	d2559bfa5c4f941
+213	261	7710895158790731	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	720413a0559ee2dc
+213	261	7710895158790731	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	720413a0559ee2dc
+305	349	7710895159670730	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f76c9ace1dd104b6
+165	213	7710895158305722	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	c60393ffb31028e2
+261	305	7710895159230737	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	4b137ffd9f0a5cf8
+11	115	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	a1884a2cdf128889
+115	165	7710895157830723	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	d2559bfa5c4f941
+115	165	7710895157830723	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	d2559bfa5c4f941
 2	48	7707848050823521	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	7fce662d4de228e2
-431	494	7710199535872421	CMakeFiles/freetype-populate-complete	92550100e11dd5dd
-8	158	0	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	a1884a2cdf128889
-8	158	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	a1884a2cdf128889
-159	222	7710833368588355	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	d2559bfa5c4f941
-159	222	7710833368588355	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	d2559bfa5c4f941
-222	267	7710833369038358	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	c60393ffb31028e2
-222	267	7710833369038358	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	c60393ffb31028e2
-267	315	7710833369513376	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	720413a0559ee2dc
-267	315	7710833369513376	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	720413a0559ee2dc
-315	368	7710833370033396	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	4b137ffd9f0a5cf8
-315	368	7710833370033396	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	4b137ffd9f0a5cf8
-368	417	7710833370538364	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f76c9ace1dd104b6
-368	417	7710833370538364	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f76c9ace1dd104b6
-417	480	7710833371168364	CMakeFiles/freetype-populate-complete	92550100e11dd5dd
-417	480	7710833371168364	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	92550100e11dd5dd
-417	480	7710833371168364	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	92550100e11dd5dd
-417	480	7710833371168364	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	92550100e11dd5dd
+349	411	7710895160285728	CMakeFiles/freetype-populate-complete	92550100e11dd5dd
+13	118	0	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	a1884a2cdf128889
+13	118	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	a1884a2cdf128889
+118	165	7710895371266340	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	d2559bfa5c4f941
+118	165	7710895371266340	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	d2559bfa5c4f941
+165	216	7710895371761340	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	c60393ffb31028e2
+165	216	7710895371761340	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	c60393ffb31028e2
+216	265	7710895372266381	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	720413a0559ee2dc
+216	265	7710895372266381	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	720413a0559ee2dc
+265	313	7710895372751347	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	4b137ffd9f0a5cf8
+265	313	7710895372751347	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	4b137ffd9f0a5cf8
+313	358	7710895373196329	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f76c9ace1dd104b6
+313	358	7710895373196329	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f76c9ace1dd104b6
+358	422	7710895373841337	CMakeFiles/freetype-populate-complete	92550100e11dd5dd
+358	422	7710895373841337	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	92550100e11dd5dd
+358	422	7710895373841337	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	92550100e11dd5dd
+358	422	7710895373841337	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	92550100e11dd5dd

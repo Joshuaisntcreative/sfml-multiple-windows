@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_main: phony || cmake_object_order_depend
 build CMakeFiles/main.dir/src/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/jjthu/Downloads/COMPUTER$ SCIENCE/NON_SCHOOL/cmake$ projects/sfml-multiple-windows/src/main.cpp || cmake_object_order_depends_target_main
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\main.dir\src\main.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
   INCLUDES = -isystem "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include"
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir\src
@@ -60,7 +60,7 @@ build CMakeFiles/main.dir/src/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C
 build CMakeFiles/main.dir/src/kinematics.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/jjthu/Downloads/COMPUTER$ SCIENCE/NON_SCHOOL/cmake$ projects/sfml-multiple-windows/src/kinematics.cpp || cmake_object_order_depends_target_main
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\main.dir\src\kinematics.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
   INCLUDES = -isystem "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include"
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir\src
@@ -68,7 +68,15 @@ build CMakeFiles/main.dir/src/kinematics.cpp.obj: CXX_COMPILER__main_unscanned_D
 build CMakeFiles/main.dir/src/newton.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/jjthu/Downloads/COMPUTER$ SCIENCE/NON_SCHOOL/cmake$ projects/sfml-multiple-windows/src/newton.cpp || cmake_object_order_depends_target_main
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\main.dir\src\newton.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -isystem "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\src
+
+build CMakeFiles/main.dir/src/tension.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/jjthu/Downloads/COMPUTER$ SCIENCE/NON_SCHOOL/cmake$ projects/sfml-multiple-windows/src/tension.cpp || cmake_object_order_depends_target_main
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\main.dir\src\tension.cpp.obj.d
+  FLAGS = -g -std=gnu++20
   INCLUDES = -isystem "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include"
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir\src
@@ -81,7 +89,7 @@ build CMakeFiles/main.dir/src/newton.cpp.obj: CXX_COMPILER__main_unscanned_Debug
 #############################################
 # Link the executable bin\main.exe
 
-build bin/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.obj CMakeFiles/main.dir/src/kinematics.cpp.obj CMakeFiles/main.dir/src/newton.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libfreetyped.a || _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+build bin/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.obj CMakeFiles/main.dir/src/kinematics.cpp.obj CMakeFiles/main.dir/src/newton.cpp.obj CMakeFiles/main.dir/src/tension.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libfreetyped.a || _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-build/lib/libfreetyped.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
