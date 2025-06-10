@@ -45,6 +45,8 @@ void drawKinematics(sf::RenderWindow &window)
         sf::Vector2f moonDirection = sun.getPosition() - moon.getPosition();
         float moonDistance = sqrt(pow(moonDirection.x,2) + pow(moonDirection.y,2));
 
+
+        //the grid point difference between the sun and earth
         sf::Vector2f direction = sun.getPosition() - earth.getPosition();
         float distance = sqrt(pow(direction.x,2) + pow(direction.y,2));
 
