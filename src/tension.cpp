@@ -38,10 +38,10 @@ void drawTension(sf::RenderWindow& window)
     sun3.setOutlineThickness(5.f);
 
     //gravitational variables
-    const float bigG = 6.674e-3;
+    const float bigG = 6.674e-2;
     float massSun1 = 500.f;
-    float massSun2 = 500.f;
-    float massSun3 = 500.f;
+    float massSun2 = 800.f;
+    float massSun3 = 800.f;
 
     sf::Vector2f velocity1 = {0.f, 0.f};
     sf::Vector2f velocity2 = {0.f, 0.f};
@@ -64,11 +64,13 @@ void drawTension(sf::RenderWindow& window)
     float deltaTime = clock.restart().asSeconds();
 
 
-    //distance points between each masses
+    //raw distance points between the masses
     sf::Vector2f sun1_2distance = sun1.getPosition() - sun2.getPosition();
     sf::Vector2f sun1_3distance = sun1.getPosition() - sun3.getPosition();
     sf::Vector2f sun2_3distance = sun2.getPosition() - sun3.getPosition();
-
+    sf::Vector2f sun3_2distance = sun3.getPosition() - sun2.getPosition();
+    sf::Vector2f sun2_1distance = sun2.getPosition() - sun1.getPosition();
+    sf::Vector2f sun3_1distance = sun3.getPosition() - sun1.getPosition();
     //you want the length from 1 TO 3 so you compute 3 - 1 in the function
     float length1_3 = distance(position3, position1);
     //length from 1 TO 2 so you compute 2 - 1 in the function
@@ -89,6 +91,10 @@ void drawTension(sf::RenderWindow& window)
     auto normalized1_3 = normalize(sun1_3distance);
     auto normalized2_3 = normalize(sun2_3distance);
     auto normalized1_2 = normalize(sun1_2distance); 
+    auto normalized3_2 = normalize(sun3_2distance);
+    auto normalized2_1 = normalize(sun2_1distance);
+    auto normalized3_1 = normalize(sun3_1distance);
+
 
 
     //all of the forces that currently exist in the system
@@ -96,12 +102,34 @@ void drawTension(sf::RenderWindow& window)
     float force1_3 = (bigG * massSun1 * massSun3)/(length1_3) * (length1_3);
     float force2_3 = (bigG * massSun2 * massSun3)/(length2_3) * (length2_3);
     float force3_2 = (bigG * massSun3 * massSun2)/(length3_2) * (length3_2);
+    float force2_1 = (bigG * massSun2 * massSun1)/(length2_1) * (length2_1);
+    float force3_1 = (bigG * massSun3 * massSun1)/(length3_1) * (length3_1);
+
+
+    //vector forces with positive and negative values,
+    sf::Vector2f vectorForce1_2 = force1_2 * normalized1_2;
+    sf::Vector2f vectorForce1_3 = force1_3 * normalized1_3;
+
+    sf::Vector2f vectorForce2_1 = force2_1 * normalized2_1;
+    sf::Vector2f vectorForce2_3 = force2_3 * normalized2_3;
+
+    sf::Vector2f vectorForce3_1 = force3_1 * normalized3_1;
+    sf::Vector2f vectorForce3_2 = force3_2 * normalized3_2;
+
+
+    sf::Vector2f netForce1 = vectorForce1_2 + vectorForce1_3;
+    sf::Vector2f netForce2 = vectorForce2_1 + vectorForce2_3;
+    sf::Vector2f netForce3 = vectorForce3_1 + vectorForce3_2;
+
+    sf::Vector2f acceleration1 = netForce1 / massSun1;
+    sf::Vector2f acceleration2 = netForce2 / massSun2;
+    sf::Vector2f acceleration3 = netForce3 / massSun3;   
 
 
 
-    velocity1 += acceleration1 * deltaTime;
-    velocity2 += acceleration2 * deltaTime;
-    velocity3 += acceleration3 * deltaTime;
+    velocity1 -= acceleration1 * deltaTime;
+    velocity2 -= acceleration2 * deltaTime;
+    velocity3 -= acceleration3 * deltaTime;
 
 
     position1 += velocity1 * deltaTime;
