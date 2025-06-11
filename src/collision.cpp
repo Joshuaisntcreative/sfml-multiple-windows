@@ -34,8 +34,8 @@ void drawCollision(sf::RenderWindow& window) {
 
 
     //physics props
-    float box1mass = 300.f;
-    sf::Vector2f box1velocity = {50.f, 0.f};
+    float box1mass = 100.f;
+    sf::Vector2f box1velocity = {150.f, 0.f};
     sf::Vector2f box1position = box1.getPosition();
     sf::Vector2f box1final_velocity = {0.f, 0.f};
 
@@ -59,26 +59,19 @@ void drawCollision(sf::RenderWindow& window) {
         float deltaTime = clock.restart().asSeconds();
         bool collisionOccured = false;
 
-        if (box1position.x + box1.getSize().x + box1.getOutlineThickness() >= box2position.x){
+        if (!collisionOccured &&  box1position.x + box1.getSize().x + box1.getOutlineThickness() >= box2position.x){
             finalVelocities = finalVelocityCalculator(box1mass, box2mass, box1velocity, box2velocity);
+
             collisionOccured = true;
-            box1final_velocity.x = finalVelocities.x;
-            box2final_velocity.x = finalVelocities.y;
+
+            box1velocity.x = finalVelocities.x;
+            box2velocity.x = finalVelocities.y;
+
+            std::cout << "Collision handled once. Velocities are updated accordingly" << std::endl;
         }
-
-        if (collisionOccured)
-        {
-            std::cout << "collision occured, velocities for m1 and m2 should be " << box1final_velocity.x << " and " << box2final_velocity.x << std::endl;
-            box1position += box1final_velocity * deltaTime;
-            box2position += box2final_velocity * deltaTime;
-
-            box1velocity = box1final_velocity;
-            box2velocity = box2final_velocity;
-            
-        } 
         box1position += box1velocity * deltaTime;
         box2position += box2velocity * deltaTime;
-        
+
         box1.setPosition(box1position);
         box2.setPosition(box2position);
 
