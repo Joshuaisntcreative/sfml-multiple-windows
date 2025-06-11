@@ -39,9 +39,9 @@ void drawTension(sf::RenderWindow& window)
 
     //gravitational variables
     const float bigG = 6.674e-2;
-    float massSun1 = 500.f;
-    float massSun2 = 800.f;
-    float massSun3 = 800.f;
+    float massSun1 = 800.f;
+    float massSun2 = 1200.f;
+    float massSun3 = 1600.f;
 
     sf::Vector2f velocity1 = {0.f, 0.f};
     sf::Vector2f velocity2 = {0.f, 0.f};
