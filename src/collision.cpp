@@ -10,8 +10,19 @@ sf::Vector2f finalVelocityCalculator(float mass1, float mass2, sf::Vector2f velo
     float v2final = ((mass2 - mass1) * velocity2.x + 2 * mass1 * velocity1.x) / (mass1 + mass2);
     return {v1final, v2final};
 }
+
 // Gradual force simulation to overcome static friction and accelerate
 void drawCollision(sf::RenderWindow& window) {
+
+
+    //text components
+    sf::Font font;
+        if (!font.openFromFile("C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\dependencies\\ROCK.TTF")) {
+        std::cerr << "Error loading font" << std::endl;
+    }
+    sf::Text text(font, "Hello", 20);
+    text.setPosition({10, 10});
+
 
     sf::RectangleShape platForm(sf::Vector2f(1545.f, 50.f));
     platForm.setFillColor(sf::Color::Transparent);
@@ -40,7 +51,7 @@ void drawCollision(sf::RenderWindow& window) {
     sf::Vector2f box1final_velocity = {0.f, 0.f};
 
     float box2mass = 700.f;
-    sf::Vector2f box2velocity = {0.f, 0.f};
+    sf::Vector2f box2velocity = {-20.f, 0.f};
     sf::Vector2f box2position = box2.getPosition();
     sf::Vector2f box2final_velocity = {0.f, 0.f};
 
@@ -49,6 +60,7 @@ void drawCollision(sf::RenderWindow& window) {
     sf::Vector2f momentums;
     sf::Vector2f finalVelocities;
     sf::Clock clock;
+    float totalTime = 0;
 
     while (window.isOpen()) {
         while (const std::optional event = window.pollEvent()) {
@@ -75,9 +87,11 @@ void drawCollision(sf::RenderWindow& window) {
         box1.setPosition(box1position);
         box2.setPosition(box2position);
 
+
         window.clear();
         window.draw(platForm);
         window.draw(box1);
+        window.draw(text);
         window.draw(box2);
         window.display();
     }
