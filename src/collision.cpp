@@ -11,6 +11,14 @@ sf::Vector2f finalVelocityCalculator(float mass1, float mass2, sf::Vector2f velo
     return {v1final, v2final};
 }
 
+void displayTime(sf::Clock &clock, sf::Text &text) {
+    sf::Time t = clock.getElapsedTime();
+    float f = t.asSeconds();
+    std::string s = std::to_string(f);
+    text.setString("Timer: " + s);
+}
+
+
 // Gradual force simulation to overcome static friction and accelerate
 void drawCollision(sf::RenderWindow& window) {
 
@@ -59,7 +67,13 @@ void drawCollision(sf::RenderWindow& window) {
  
     sf::Vector2f momentums;
     sf::Vector2f finalVelocities;
+
+    //clock used for physics calculations
     sf::Clock clock;
+
+    sf::Clock timer;
+
+
     float totalTime = 0;
 
     while (window.isOpen()) {
@@ -67,8 +81,8 @@ void drawCollision(sf::RenderWindow& window) {
             if (event->is<sf::Event::Closed>())
                 window.close();
         }
-
         float deltaTime = clock.restart().asSeconds();
+        totalTime += deltaTime;
         bool collisionOccured = false;
 
         if (!collisionOccured &&  box1position.x + box1.getSize().x + box1.getOutlineThickness() >= box2position.x){
@@ -86,6 +100,8 @@ void drawCollision(sf::RenderWindow& window) {
 
         box1.setPosition(box1position);
         box2.setPosition(box2position);
+
+        displayTime(timer, text);
 
 
         window.clear();

@@ -1,37 +1,37 @@
 # ninja log v5
-487	558	7713703218965200	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	6487014f033970ed
-558	671	7713703220070204	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	35b2db17ba4a12f7
-422	487	7713703218230217	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	e1ee45e0fb6890b3
+143	230	7713715828179321	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	f6fb0f2cae0df48
+10	143	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	fd08473cf8dc5fb4
+231	289	7713715828764331	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	66a4c793362ff797
+10	143	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	fd08473cf8dc5fb4
+395	459	7713715830454337	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	6487014f033970ed
+143	230	7713715828179321	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	f6fb0f2cae0df48
+47	5414	7707847996698531	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	5520712dc36691f5
+459	569	7713715831549331	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	35b2db17ba4a12f7
+459	569	7713715831549331	CMakeFiles/sfml-populate-complete	35b2db17ba4a12f7
+459	569	7713715831549331	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	35b2db17ba4a12f7
+2	47	7707847943032974	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	6c678eac72f1e1da
+231	289	7713715828764331	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	66a4c793362ff797
+289	346	7713715829329328	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	37469ebbabd8bc8d
+289	346	7713715829329328	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	37469ebbabd8bc8d
+459	569	7713715831549331	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	35b2db17ba4a12f7
+395	459	7713715830454337	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	6487014f033970ed
+347	395	7713715829829332	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	e1ee45e0fb6890b3
 2	47	7707847943032974	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	6c678eac72f1e1da
 47	5414	7707847996698531	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	5520712dc36691f5
-422	487	7713703218230217	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	e1ee45e0fb6890b3
-47	5414	7707847996698531	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	5520712dc36691f5
-216	282	7713703216200211	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	f6fb0f2cae0df48
-487	558	7713703218965200	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	6487014f033970ed
-21	215	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	fd08473cf8dc5fb4
-21	215	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	fd08473cf8dc5fb4
-282	351	7713703216895205	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	66a4c793362ff797
-216	282	7713703216200211	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	f6fb0f2cae0df48
-352	422	7713703217605210	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	37469ebbabd8bc8d
-352	422	7713703217605210	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	37469ebbabd8bc8d
-282	351	7713703216895205	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	66a4c793362ff797
-2	47	7707847943032974	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	6c678eac72f1e1da
-558	671	7713703220070204	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	35b2db17ba4a12f7
-558	671	7713703220070204	CMakeFiles/sfml-populate-complete	35b2db17ba4a12f7
-558	671	7713703220070204	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	35b2db17ba4a12f7
-10	143	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	fd08473cf8dc5fb4
-10	143	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	fd08473cf8dc5fb4
-143	230	7713715828179321	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	f6fb0f2cae0df48
-143	230	7713715828179321	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	f6fb0f2cae0df48
-231	289	7713715828764331	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	66a4c793362ff797
-231	289	7713715828764331	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	66a4c793362ff797
-289	346	7713715829329328	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	37469ebbabd8bc8d
-289	346	7713715829329328	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	37469ebbabd8bc8d
 347	395	7713715829829332	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	e1ee45e0fb6890b3
-347	395	7713715829829332	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	e1ee45e0fb6890b3
-395	459	7713715830454337	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	6487014f033970ed
-395	459	7713715830454337	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	6487014f033970ed
-459	569	7713715831549331	CMakeFiles/sfml-populate-complete	35b2db17ba4a12f7
-459	569	7713715831549331	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	35b2db17ba4a12f7
-459	569	7713715831549331	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	35b2db17ba4a12f7
-459	569	7713715831549331	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	35b2db17ba4a12f7
+13	217	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	fd08473cf8dc5fb4
+13	217	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	fd08473cf8dc5fb4
+217	269	7714281130880133	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	f6fb0f2cae0df48
+217	269	7714281130880133	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	f6fb0f2cae0df48
+269	325	7714281131435135	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	66a4c793362ff797
+269	325	7714281131435135	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	66a4c793362ff797
+326	400	7714281132180138	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	37469ebbabd8bc8d
+326	400	7714281132180138	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	37469ebbabd8bc8d
+400	466	7714281132845128	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	e1ee45e0fb6890b3
+400	466	7714281132845128	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	e1ee45e0fb6890b3
+466	516	7714281133340121	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	6487014f033970ed
+466	516	7714281133340121	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	6487014f033970ed
+516	581	7714281134000141	CMakeFiles/sfml-populate-complete	35b2db17ba4a12f7
+516	581	7714281134000141	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	35b2db17ba4a12f7
+516	581	7714281134000141	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	35b2db17ba4a12f7
+516	581	7714281134000141	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	35b2db17ba4a12f7
