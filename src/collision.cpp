@@ -38,36 +38,39 @@ void drawCollision(sf::RenderWindow& window) {
     platForm.setOutlineThickness(5.f);
     platForm.setPosition({100, 800});
 
-    sf::RectangleShape box1(sf::Vector2f(50.f, 50.f));
-    box1.setFillColor(sf::Color::White);
-    box1.setPosition({100, 745});
-    box1.setOutlineThickness(5.f);
-    box1.setOutlineColor(sf::Color::Blue);
+    sf::CircleShape mass1(50.f);
+    mass1.setFillColor(sf::Color::White);
+    mass1.setOrigin({mass1.getRadius(), mass1.getRadius()});
+    mass1.setPosition({100, 400});
+    mass1.setOutlineThickness(5.f);
+    mass1.setOutlineColor(sf::Color::Blue);
 
-    sf::RectangleShape box2(sf::Vector2f(50.f, 50.f));
-    box2.setFillColor(sf::Color::White);
-    box2.setPosition({1000, 745});
-    box2.setOutlineThickness(5.f);
-    box2.setOutlineColor(sf::Color::Green);
+    sf::CircleShape mass2(50.f);
+    mass2.setFillColor(sf::Color::White);
+    mass2.setOrigin({mass2.getRadius(), mass2.getRadius()});
+    mass2.setPosition({700, 400});
+    mass2.setOutlineThickness(5.f);
+    mass2.setOutlineColor(sf::Color::Green);
 
 
 
     //physics props
-    float box1mass = 100.f;
-    sf::Vector2f box1velocity = {150.f, 0.f};
-    sf::Vector2f box1position = box1.getPosition();
-    sf::Vector2f box1final_velocity = {0.f, 0.f};
+    float mass1mass = 100.f;
+    sf::Vector2f mass1velocity = {75.f, 0.f};
+    sf::Vector2f mass1position = mass1.getPosition();
+    sf::Vector2f mass1final_velocity = {0.f, 0.f};
 
-    float box2mass = 700.f;
-    sf::Vector2f box2velocity = {-20.f, 0.f};
-    sf::Vector2f box2position = box2.getPosition();
-    sf::Vector2f box2final_velocity = {0.f, 0.f};
+    float mass2mass = 700.f;
+    sf::Vector2f mass2velocity = {0.f, 0.f};
+    sf::Vector2f mass2position = mass2.getPosition();
+    sf::Vector2f mass2final_velocity = {0.f, 0.f};
 
 
  
     sf::Vector2f momentums;
     sf::Vector2f finalVelocities;
 
+    float combinedRadius = mass1.getRadius() + mass2.getRadius();
     //clock used for physics calculations
     sf::Clock clock;
 
@@ -85,30 +88,30 @@ void drawCollision(sf::RenderWindow& window) {
         totalTime += deltaTime;
         bool collisionOccured = false;
 
-        if (!collisionOccured &&  box1position.x + box1.getSize().x + box1.getOutlineThickness() >= box2position.x){
-            finalVelocities = finalVelocityCalculator(box1mass, box2mass, box1velocity, box2velocity);
+        //x components minus y components squared 
+        sf::Vector2f distanceVector = {pow(mass1position.x - mass2position.x, 2), pow(mass1position.y - mass2position.y,2)};
 
+        float distance = sqrt(distanceVector.x + distanceVector.y);
+
+        if(!collisionOccured && combinedRadius>= distance){
+            mass1velocity = {17.68f,-17.68f};
+            mass2velocity = {33.72f, 10.4f};
             collisionOccured = true;
-
-            box1velocity.x = finalVelocities.x;
-            box2velocity.x = finalVelocities.y;
-
-            std::cout << "Collision handled once. Velocities are updated accordingly" << std::endl;
         }
-        box1position += box1velocity * deltaTime;
-        box2position += box2velocity * deltaTime;
+        mass1position += mass1velocity * deltaTime;
+        mass2position += mass2velocity * deltaTime;
 
-        box1.setPosition(box1position);
-        box2.setPosition(box2position);
+        mass1.setPosition(mass1position);
+        mass2.setPosition(mass2position);
 
         displayTime(timer, text);
 
 
         window.clear();
-        window.draw(platForm);
-        window.draw(box1);
+        // window.draw(platForm);
+        window.draw(mass1);
         window.draw(text);
-        window.draw(box2);
+        window.draw(mass2);
         window.display();
     }
 }

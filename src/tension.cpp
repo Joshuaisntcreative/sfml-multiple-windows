@@ -1,39 +1,29 @@
 #include "tension.hpp"
+#include "functions.hpp"
 #include <iostream>
 #include <cmath>
 
-sf::Vector2f normalize(const sf::Vector2f& vec) {
-    float len = std::sqrt(vec.x * vec.x + vec.y * vec.y);
-    if (len != 0)
-        return vec / len;
-    return sf::Vector2f(0.f, 0.f); // Avoid division by zero
-}
-//"To find the force ON object A FROM object B, do: B - A"
-float distance(const sf::Vector2f& vec1, sf::Vector2f& vec2){
-    float distance = sqrt(pow(vec1.x - vec2.x,2) + pow(vec1.y - vec2.y,2));
-    return distance;
-}
 
 
 void drawTension(sf::RenderWindow& window)
 {
-    sf::CircleShape sun1(30.f);
+    sf::CircleShape sun1(15.f);
     sun1.setFillColor(sf::Color::White);
-    sun1.setPosition({930, 300});
+    sun1.setPosition({300, 300});
     sun1.setOutlineColor(sf::Color::Yellow);
     sun1.setOutlineThickness(5.f);
 
-    sf::CircleShape sun2(30.f);
+    sf::CircleShape sun2(15.f);
     sun2.setFillColor(sf::Color::White);
-    sun2.setPosition({1520, 800});
+    sun2.setPosition({500, 800});
     sun2.setOutlineColor(sf::Color::Green);
     sun2.setOutlineThickness(5.f);
 
 
 
-    sf::CircleShape sun3(30.f);
+    sf::CircleShape sun3(15.f);
     sun3.setFillColor(sf::Color::White);
-    sun3.setPosition({340, 800});
+    sun3.setPosition({400, 800});
     sun3.setOutlineColor(sf::Color::Blue);
     sun3.setOutlineThickness(5.f);
 
@@ -41,17 +31,19 @@ void drawTension(sf::RenderWindow& window)
     const float bigG = 6.674e-2;
     float massSun1 = 800.f;
     float massSun2 = 1200.f;
-    float massSun3 = 1600.f;
+    float massSun3 = 1200.f;
 
-    sf::Vector2f velocity1 = {0.f, 0.f};
-    sf::Vector2f velocity2 = {0.f, 0.f};
-    sf::Vector2f velocity3 = {0.f, 0.f};
+    sf::Vector2f velocity1 = {-0.f, -40.f};
+    sf::Vector2f velocity2 = {-53.f, 0.f};
+    sf::Vector2f velocity3 = {-4.f,-31.f};
 
     sf::Vector2f position1 = sun1.getPosition();
     sf::Vector2f position2 = sun2.getPosition();
     sf::Vector2f position3 = sun3.getPosition();
 
     sf::Clock clock;
+    std::vector<sf::Vertex> trails;
+ 
 
     while (window.isOpen())
     {
@@ -62,6 +54,7 @@ void drawTension(sf::RenderWindow& window)
         }
 
     float deltaTime = clock.restart().asSeconds();
+
 
 
     //raw distance points between the masses
@@ -140,7 +133,14 @@ void drawTension(sf::RenderWindow& window)
     sun2.setPosition(position2);
     sun3.setPosition(position3);
 
+    trails.emplace_back(position1, sf::Color::White);
+
+    if (trails.size() > 1000)
+        trails.erase(trails.begin());
+
+        
     window.clear();
+    window.draw(&trails[0], trails.size(), sf::PrimitiveType::LineStrip);
     window.draw(sun3);
     window.draw(sun2);
     window.draw(sun1);

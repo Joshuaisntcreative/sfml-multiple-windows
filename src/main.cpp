@@ -14,7 +14,7 @@ enum Mode {
 int main(){
     sf::RenderWindow window(sf::VideoMode({1920,1080}),  "Physics Mode Switcher");
     //Change this mode to the given enums provided above to alternate between simulations
-    Mode mode = COLLISION;
+    Mode mode = NEWTON;
 
     while (window.isOpen())
     {
