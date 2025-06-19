@@ -1,12 +1,12 @@
 #include <SFML/Graphics.hpp>
 #include "kinematics.hpp"
-#include "newton.hpp"
+#include "PROCEDURAL.hpp"
 #include "tension.hpp"
 #include "collision.hpp"
 
 enum Mode {
     KINEMATICS,
-    NEWTON,
+    PROCEDURAL,
     TENSION,
     COLLISION
 };
@@ -14,7 +14,7 @@ enum Mode {
 int main(){
     sf::RenderWindow window(sf::VideoMode({1920,1080}),  "Physics Mode Switcher");
     //Change this mode to the given enums provided above to alternate between simulations
-    Mode mode = NEWTON;
+    Mode mode = PROCEDURAL;
 
     while (window.isOpen())
     {
@@ -32,8 +32,8 @@ int main(){
         case KINEMATICS:
             drawKinematics(window);
             break;
-        case NEWTON:
-            drawNewton(window);
+        case PROCEDURAL:
+            drawProcedural(window);
             break;
         case TENSION:
             drawTension(window);

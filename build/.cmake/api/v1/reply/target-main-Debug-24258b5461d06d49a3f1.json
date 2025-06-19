@@ -230,7 +230,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/newton.cpp",
+			"path" : "src/procedural.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

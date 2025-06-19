@@ -9,7 +9,7 @@ void drawTension(sf::RenderWindow& window)
 {
     sf::CircleShape sun1(15.f);
     sun1.setFillColor(sf::Color::White);
-    sun1.setPosition({300, 300});
+    sun1.setPosition({1200, 300});
     sun1.setOutlineColor(sf::Color::Yellow);
     sun1.setOutlineThickness(5.f);
 
@@ -23,19 +23,19 @@ void drawTension(sf::RenderWindow& window)
 
     sf::CircleShape sun3(15.f);
     sun3.setFillColor(sf::Color::White);
-    sun3.setPosition({400, 800});
+    sun3.setPosition({1000, 900});
     sun3.setOutlineColor(sf::Color::Blue);
     sun3.setOutlineThickness(5.f);
 
     //gravitational variables
-    const float bigG = 6.674e-2;
-    float massSun1 = 800.f;
-    float massSun2 = 1200.f;
-    float massSun3 = 1200.f;
+    const float bigG = 6.674e3;
+    float massSun1 = 80.f;
+    float massSun2 = 10.f;
+    float massSun3 = 120.f;
 
-    sf::Vector2f velocity1 = {-0.f, -40.f};
-    sf::Vector2f velocity2 = {-53.f, 0.f};
-    sf::Vector2f velocity3 = {-4.f,-31.f};
+    sf::Vector2f velocity1 = {0.f, -0.f};
+    sf::Vector2f velocity2 = {-0.f, 0.f};
+    sf::Vector2f velocity3 = {-0.f,-0.f};
 
     sf::Vector2f position1 = sun1.getPosition();
     sf::Vector2f position2 = sun2.getPosition();
@@ -91,12 +91,12 @@ void drawTension(sf::RenderWindow& window)
 
 
     //all of the forces that currently exist in the system
-    float force1_2 = (bigG * massSun1 * massSun2)/(length1_2) * (length1_2);
-    float force1_3 = (bigG * massSun1 * massSun3)/(length1_3) * (length1_3);
-    float force2_3 = (bigG * massSun2 * massSun3)/(length2_3) * (length2_3);
-    float force3_2 = (bigG * massSun3 * massSun2)/(length3_2) * (length3_2);
-    float force2_1 = (bigG * massSun2 * massSun1)/(length2_1) * (length2_1);
-    float force3_1 = (bigG * massSun3 * massSun1)/(length3_1) * (length3_1);
+    float force1_2 = (bigG * massSun1 * massSun2)/(length1_2 * length1_2);
+    float force1_3 = (bigG * massSun1 * massSun3)/(length1_3 * length1_3);
+    float force2_3 = (bigG * massSun2 * massSun3)/(length2_3 * length2_3);
+    float force3_2 = (bigG * massSun3 * massSun2)/(length3_2 * length3_2);
+    float force2_1 = (bigG * massSun2 * massSun1)/(length2_1 * length2_1);
+    float force3_1 = (bigG * massSun3 * massSun1)/(length3_1 * length3_1);
 
 
     //vector forces with positive and negative values,

@@ -1,37 +1,37 @@
 # ninja log v5
-149	192	7719516290331478	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	9ea6a35edb968827
-282	326	7719516291666479	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	fdc8bc077d2310e6
+208	254	7720479224135311	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	9ea6a35edb968827
+344	389	7720479225485305	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	fdc8bc077d2310e6
 48	1201	7707848148596965	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	843990723141bd62
-192	237	7719516290781475	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	c3591fcdc73cc96d
-192	237	7719516290781475	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	c3591fcdc73cc96d
-326	388	7719516292281481	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	76a3b487e432cde0
-104	149	7719516289896479	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	1ca228de06cba16b
-237	282	7719516291231442	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	d4884629976d8828
-237	282	7719516291231442	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	d4884629976d8828
+254	299	7720479224580316	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	c3591fcdc73cc96d
+254	299	7720479224580316	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	c3591fcdc73cc96d
+389	451	7720479226105345	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	76a3b487e432cde0
+145	208	7720479223675350	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	1ca228de06cba16b
+299	344	7720479225030310	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	d4884629976d8828
 1	48	7707848137066983	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	fbe77d09754d83fa
-149	192	7719516290331478	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	9ea6a35edb968827
-282	326	7719516291666479	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	fdc8bc077d2310e6
+299	344	7720479225030310	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	d4884629976d8828
+208	254	7720479224135311	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	9ea6a35edb968827
+10	145	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	cfca0bafe76899eb
+344	389	7720479225485305	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	fdc8bc077d2310e6
 48	1201	7707848148596965	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	843990723141bd62
-9	103	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	cfca0bafe76899eb
-9	103	0	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	cfca0bafe76899eb
-326	388	7719516292281481	CMakeFiles/ogg-populate-complete	76a3b487e432cde0
-326	388	7719516292281481	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	76a3b487e432cde0
+10	145	0	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	cfca0bafe76899eb
+389	451	7720479226105345	CMakeFiles/ogg-populate-complete	76a3b487e432cde0
+389	451	7720479226105345	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	76a3b487e432cde0
 1	48	7707848137066983	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	fbe77d09754d83fa
-326	388	7719516292281481	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	76a3b487e432cde0
-104	149	7719516289896479	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	1ca228de06cba16b
-10	163	0	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	cfca0bafe76899eb
-10	163	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	cfca0bafe76899eb
-163	236	7719620470907900	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	1ca228de06cba16b
-163	236	7719620470907900	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	1ca228de06cba16b
-236	291	7719620471467886	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	9ea6a35edb968827
-236	291	7719620471467886	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	9ea6a35edb968827
-291	340	7719620471952883	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	c3591fcdc73cc96d
-291	340	7719620471952883	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	c3591fcdc73cc96d
-340	392	7719620472477879	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	d4884629976d8828
-340	392	7719620472477879	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	d4884629976d8828
-392	445	7719620473002880	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	fdc8bc077d2310e6
-392	445	7719620473002880	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	fdc8bc077d2310e6
-445	515	7719620473692885	CMakeFiles/ogg-populate-complete	76a3b487e432cde0
-445	515	7719620473692885	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	76a3b487e432cde0
-445	515	7719620473692885	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	76a3b487e432cde0
-445	515	7719620473692885	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	76a3b487e432cde0
+389	451	7720479226105345	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	76a3b487e432cde0
+145	208	7720479223675350	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	1ca228de06cba16b
+11	150	0	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	cfca0bafe76899eb
+11	150	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	cfca0bafe76899eb
+151	212	7720587488348045	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	1ca228de06cba16b
+151	212	7720587488348045	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	1ca228de06cba16b
+212	258	7720587488818063	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	9ea6a35edb968827
+212	258	7720587488818063	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	9ea6a35edb968827
+258	303	7720587489263041	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	c3591fcdc73cc96d
+258	303	7720587489263041	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	c3591fcdc73cc96d
+303	351	7720587489743035	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	d4884629976d8828
+303	351	7720587489743035	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	d4884629976d8828
+351	396	7720587490193060	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	fdc8bc077d2310e6
+351	396	7720587490193060	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	fdc8bc077d2310e6
+396	462	7720587490848036	CMakeFiles/ogg-populate-complete	76a3b487e432cde0
+396	462	7720587490848036	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	76a3b487e432cde0
+396	462	7720587490848036	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	76a3b487e432cde0
+396	462	7720587490848036	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	76a3b487e432cde0

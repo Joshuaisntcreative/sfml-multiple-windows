@@ -13,9 +13,9 @@
 },
 {
   "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\newton.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\newton.cpp\"",
-  "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\newton.cpp",
-  "output": "CMakeFiles\\main.dir\\src\\newton.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\procedural.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\procedural.cpp\"",
+  "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\procedural.cpp",
+  "output": "CMakeFiles\\main.dir\\src\\procedural.cpp.obj"
 },
 {
   "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
