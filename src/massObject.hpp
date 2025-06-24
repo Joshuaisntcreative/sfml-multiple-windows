@@ -1,30 +1,26 @@
-#pragma once
+#ifndef MASS_OBJECT_HPP
+#define MASS_OBJECT_HPP
+#include <vector>
 #include <SFML/Graphics.hpp>
 
-struct MassObject
-{
-    sf::CircleShape shape;
-    float mass = 0.f;
-    MassObject(float radius, float mass1, sf::Vector2f position, sf::Color color = sf::Color::White)
-    {
-        mass = mass1;
-        shape.setRadius(radius);
-        shape.setOrigin({radius, radius}); // center the origin
-        shape.setPosition(position);
-        shape.setFillColor(color);
-    }
+class massObject : public sf::CircleShape {
 
-    void draw(sf::RenderWindow& window) const {
-        window.draw(shape);
-    }
+    public:
+    massObject();
 
-    // Optional: Get the position of the center
-    sf::Vector2f getPosition() const {
-        return shape.getPosition();
-    }
+    float getMass() const;
 
-    // Optional: Set a new position
-    void setPosition(sf::Vector2f pos) {
-        shape.setPosition(pos);
-    }
+
+    private:
+
+    sf::CircleShape circle;
+
+    std::vector<sf::Color> colors;
+    
+    float mass;
+    
+
+
 };
+
+#endif

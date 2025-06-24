@@ -1,5 +1,6 @@
 #include "procedural.hpp"
-#include "functions.hpp"
+#include "supportingFiles/functions.hpp"
+#include "supportingFiles/Gui.hpp"
 #include "massObject.hpp"
 #include <cmath>
 #include <iostream>
@@ -17,28 +18,32 @@ void drawProcedural(sf::RenderWindow& window) {
 
     float totalTime = 0.f;
     sf::Clock clock;
-
-
-    MassObject mass1(20.f, 5.f, {400.f, 300.f}, sf::Color::Green);
-
+    Gui gui = Gui();
+    sf::Mouse::Button button;
     while (window.isOpen())
     {
         while (const std::optional event = window.pollEvent())
         {
             if (event->is<sf::Event::Closed>())
+            {
                 window.close();
+            }
+            //mouse is clicked
+            if (event->is<sf::Event::MouseButtonPressed>())
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left))
+                {
+                    gui.addMass();
+                }
+            }
         }
 
-    float deltaTime = clock.restart().asSeconds();
-    totalTime += deltaTime;
-    if(totalTime >= 5.f)
-    {
-        text.setString("Time exceeded 5 seconds");
-    }
+        
 
+        sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+        gui.update(mousePos, button);
         window.clear();
-        window.draw(text);
-        mass1.draw(window);
+        window.draw(gui);
         window.display();
     }
 }

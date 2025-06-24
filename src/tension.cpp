@@ -1,5 +1,5 @@
 #include "tension.hpp"
-#include "functions.hpp"
+#include "supportingFiles/functions.hpp"
 #include <iostream>
 #include <cmath>
 
@@ -29,9 +29,9 @@ void drawTension(sf::RenderWindow& window)
 
     //gravitational variables
     const float bigG = 6.674e3;
-    float massSun1 = 80.f;
-    float massSun2 = 10.f;
-    float massSun3 = 120.f;
+    float massSun1 = 800.f;
+    float massSun2 = 1200.f;
+    float massSun3 = 1200.f;
 
     sf::Vector2f velocity1 = {0.f, -0.f};
     sf::Vector2f velocity2 = {-0.f, 0.f};

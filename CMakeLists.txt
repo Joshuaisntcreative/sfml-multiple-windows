@@ -13,6 +13,6 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 add_executable(main src/main.cpp
-src/kinematics.cpp src/procedural.cpp src/tension.cpp src/collision.cpp src/functions.cpp)
+src/kinematics.cpp src/procedural.cpp src/tension.cpp src/collision.cpp src/supportingFiles/functions.cpp src/supportingFiles/Gui.cpp src/massObject.cpp) 
 target_compile_features(main PRIVATE cxx_std_20)
 target_link_libraries(main PRIVATE SFML::Graphics SFML::Window SFML::System)

@@ -31,9 +31,21 @@
 },
 {
   "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\functions.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\functions.cpp\"",
-  "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\functions.cpp",
-  "output": "CMakeFiles\\main.dir\\src\\functions.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\supportingFiles\\functions.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\supportingFiles\\functions.cpp\"",
+  "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\supportingFiles\\functions.cpp",
+  "output": "CMakeFiles\\main.dir\\src\\supportingFiles\\functions.cpp.obj"
+},
+{
+  "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\supportingFiles\\Gui.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\supportingFiles\\Gui.cpp\"",
+  "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\supportingFiles\\Gui.cpp",
+  "output": "CMakeFiles\\main.dir\\src\\supportingFiles\\Gui.cpp.obj"
+},
+{
+  "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -isystem \"C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/include\" -g -std=gnu++20 -o CMakeFiles\\main.dir\\src\\massObject.cpp.obj -c \"C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\massObject.cpp\"",
+  "file": "C:\\Users\\jjthu\\Downloads\\COMPUTER SCIENCE\\NON_SCHOOL\\cmake projects\\sfml-multiple-windows\\src\\massObject.cpp",
+  "output": "CMakeFiles\\main.dir\\src\\massObject.cpp.obj"
 },
 {
   "directory": "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build",
