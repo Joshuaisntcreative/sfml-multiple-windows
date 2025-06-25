@@ -2,6 +2,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "../massObject.hpp"
+#include "../objectHandler.hpp"
 #include <optional>
 #include <vector>
 
@@ -10,11 +11,15 @@ class Gui : public sf::Drawable {
 public:
     Gui();
 
+    objectHandler objHandler;
+
     sf::FloatRect getGlobalBounds() ;
 
     void update(sf::Vector2i mousePosition, sf::Mouse::Button button);
 
     void addMass();
+
+
 
 private:
     //gui class

@@ -1,37 +1,37 @@
 # ninja log v5
-221	273	7724765752649515	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	d2cad80f0dd6a527
-273	321	7724765753129486	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	80db777afe94bd1a
-1	47	7707848210406982	flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir	20d77548aceb5e70
-321	370	7724765753609481	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	f527de1241e8aff6
+577	682	7724911903276658	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	62a14256a17cbf01
+17	218	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	fc4ad20d342f4092
+317	382	7724911900266666	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	331bdbecd2f70c8d
+577	682	7724911903276658	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	62a14256a17cbf01
+577	682	7724911903276658	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	62a14256a17cbf01
+218	317	7724911899626671	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	98d63133cd085375
+383	442	7724911900881664	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	d2cad80f0dd6a527
+218	317	7724911899626671	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	98d63133cd085375
 1	47	7707848210406982	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir	20d77548aceb5e70
-114	168	7724765751599519	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	98d63133cd085375
-221	273	7724765752649515	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	d2cad80f0dd6a527
-9	114	0	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	fc4ad20d342f4092
-169	221	7724765752129511	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	331bdbecd2f70c8d
-48	1967	7707848229526985	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download	7f0e2371efa1eb18
-273	321	7724765753129486	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	80db777afe94bd1a
+504	576	7724911902226680	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	f527de1241e8aff6
+1	47	7707848210406982	flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir	20d77548aceb5e70
+383	442	7724911900881664	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	d2cad80f0dd6a527
+443	504	7724911901496672	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	80db777afe94bd1a
+504	576	7724911902226680	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	f527de1241e8aff6
+577	682	7724911903276658	CMakeFiles/flac-populate-complete	62a14256a17cbf01
 48	1967	7707848229526985	flac-populate-prefix/src/flac-populate-stamp/flac-populate-download	7f0e2371efa1eb18
-370	435	7724765754269479	CMakeFiles/flac-populate-complete	62a14256a17cbf01
-321	370	7724765753609481	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	f527de1241e8aff6
-370	435	7724765754269479	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	62a14256a17cbf01
-9	114	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	fc4ad20d342f4092
-169	221	7724765752129511	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	331bdbecd2f70c8d
-370	435	7724765754269479	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	62a14256a17cbf01
-370	435	7724765754269479	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	62a14256a17cbf01
-114	168	7724765751599519	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	98d63133cd085375
-10	117	0	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	fc4ad20d342f4092
-10	117	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	fc4ad20d342f4092
-117	168	7724767145332720	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	98d63133cd085375
-117	168	7724767145332720	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	98d63133cd085375
-168	216	7724767145812721	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	331bdbecd2f70c8d
-168	216	7724767145812721	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	331bdbecd2f70c8d
-216	261	7724767146267722	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	d2cad80f0dd6a527
-216	261	7724767146267722	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	d2cad80f0dd6a527
-261	306	7724767146717720	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	80db777afe94bd1a
-261	306	7724767146717720	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	80db777afe94bd1a
-306	352	7724767147167717	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	f527de1241e8aff6
-306	352	7724767147167717	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	f527de1241e8aff6
-352	416	7724767147812722	CMakeFiles/flac-populate-complete	62a14256a17cbf01
-352	416	7724767147812722	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	62a14256a17cbf01
-352	416	7724767147812722	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	62a14256a17cbf01
-352	416	7724767147812722	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	62a14256a17cbf01
+443	504	7724911901496672	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	80db777afe94bd1a
+48	1967	7707848229526985	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download	7f0e2371efa1eb18
+317	382	7724911900266666	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	331bdbecd2f70c8d
+17	218	0	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	fc4ad20d342f4092
+10	181	0	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	fc4ad20d342f4092
+10	181	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	fc4ad20d342f4092
+182	270	7725554397338844	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	98d63133cd085375
+182	270	7725554397338844	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	98d63133cd085375
+270	326	7725554397898844	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	331bdbecd2f70c8d
+270	326	7725554397898844	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	331bdbecd2f70c8d
+326	381	7725554398448850	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	d2cad80f0dd6a527
+326	381	7725554398448850	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	d2cad80f0dd6a527
+381	439	7725554399008855	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	80db777afe94bd1a
+381	439	7725554399008855	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	80db777afe94bd1a
+439	494	7725554399573852	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	f527de1241e8aff6
+439	494	7725554399573852	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	f527de1241e8aff6
+494	568	7725554400318857	CMakeFiles/flac-populate-complete	62a14256a17cbf01
+494	568	7725554400318857	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	62a14256a17cbf01
+494	568	7725554400318857	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	62a14256a17cbf01
+494	568	7725554400318857	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	62a14256a17cbf01

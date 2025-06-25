@@ -20,6 +20,8 @@ Gui::Gui()
     text->setPosition({shape.getPosition().x, shape.getPosition().y});
     using namespace sf;
     colors = {Color::White, Color::Red, Color::Green, Color::Blue, Color::Yellow, Color::Magenta, Color::Cyan};
+
+    //object handler initialization
 }
 
 void Gui::update(sf::Vector2i mousePosition, sf::Mouse::Button button)
@@ -54,6 +56,7 @@ void Gui::draw(sf::RenderTarget& target, sf::RenderStates states) const {
 //make it a randomizer
 void Gui::addMass(){
     massObject mass = massObject();
+    objHandler.add_mass(mass);
     masses.push_back(mass);
     
 }
