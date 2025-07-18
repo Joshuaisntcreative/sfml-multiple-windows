@@ -13,6 +13,8 @@ public:
 
     sf::Vector2f getPosition() const;
 
+    void updatePosition(sf::Vector2f positions);
+
 private:
     sf::CircleShape circle;
 
@@ -22,11 +24,7 @@ private:
 
     sf::Vector2f position;
 
-    float euclidDistance;
-
-    sf::Vector2f distanceVector;
-
-    sf::Vector2f normalizedVector;
+    
 };
 
 #endif

@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-isf1jv"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-isf1jv"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-f04z7m"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-f04z7m"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -49,10 +49,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-isf1jv'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-f04z7m'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_0fb90
-        [1/2] C:\\msys64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_1e2fa
+        [1/2] C:\\msys64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -60,8 +60,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.0 (Rev4, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0fb90.dir/'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0fb90.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccur1Hwc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1e2fa.dir/'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1e2fa.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccslFpNT.s
         GNU C++17 (Rev4, Built by MSYS2 project) version 13.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -86,13 +86,13 @@ events:
          C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 3da9e0c2b668f2fe53f07d466a956455
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0fb90.dir/'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccur1Hwc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1e2fa.dir/'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccslFpNT.s
         GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe  -v CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_0fb90.exe -Wl,--out-implib,libcmTC_0fb90.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe  -v CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_1e2fa.exe -Wl,--out-implib,libcmTC_1e2fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
@@ -103,9 +103,9 @@ events:
         gcc version 13.2.0 (Rev4, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0fb90.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0fb90.'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccKtpKvl.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_0fb90.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_0fb90.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0fb90.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0fb90.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1e2fa.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1e2fa.'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccmEI7fY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1e2fa.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_1e2fa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1e2fa.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1e2fa.'\x0d
         
       exitCode: 0
   -
@@ -143,10 +143,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-isf1jv']
+        ignore line: [Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-f04z7m']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_0fb90]
-        ignore line: [[1/2] C:\\msys64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_1e2fa]
+        ignore line: [[1/2] C:\\msys64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -154,8 +154,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.0 (Rev4  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0fb90.dir/']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0fb90.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccur1Hwc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1e2fa.dir/']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1e2fa.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccslFpNT.s]
         ignore line: [GNU C++17 (Rev4  Built by MSYS2 project) version 13.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -180,8 +180,8 @@ events:
         ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 3da9e0c2b668f2fe53f07d466a956455]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0fb90.dir/']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccur1Hwc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1e2fa.dir/']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccslFpNT.s]
         ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42]
         ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
@@ -192,8 +192,8 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe  -v CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_0fb90.exe -Wl --out-implib libcmTC_0fb90.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe  -v CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_1e2fa.exe -Wl --out-implib libcmTC_1e2fa.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
@@ -211,13 +211,13 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0fb90.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0fb90.']
-        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccKtpKvl.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_0fb90.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_0fb90.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1e2fa.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1e2fa.']
+        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccmEI7fY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1e2fa.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_1e2fa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccKtpKvl.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccmEI7fY.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -241,7 +241,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_0fb90.exe] ==> ignore
+          arg [cmTC_1e2fa.exe] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
@@ -250,9 +250,9 @@ events:
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
-          arg [CMakeFiles/cmTC_0fb90.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_1e2fa.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_0fb90.dll.a] ==> ignore
+          arg [libcmTC_1e2fa.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -328,8 +328,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-upapsh"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-upapsh"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dkbfi6"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dkbfi6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -339,10 +339,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-upapsh'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dkbfi6'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d07a9
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_03412
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -350,8 +350,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.0 (Rev4, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d07a9.dir/'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d07a9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccBmyT3V.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03412.dir/'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_03412.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccGHNqjf.s
         GNU C17 (Rev4, Built by MSYS2 project) version 13.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -370,13 +370,13 @@ events:
          C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
         End of search list.
         Compiler executable checksum: bb5982dde5fefc6a5f7c9ef27ef1a65a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d07a9.dir/'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccBmyT3V.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03412.dir/'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccGHNqjf.s
         GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe  -v CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj -o cmTC_d07a9.exe -Wl,--out-implib,libcmTC_d07a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe  -v CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj -o cmTC_03412.exe -Wl,--out-implib,libcmTC_03412.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
@@ -387,9 +387,9 @@ events:
         gcc version 13.2.0 (Rev4, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d07a9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d07a9.'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\cclaXIT0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d07a9.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d07a9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d07a9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d07a9.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03412.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_03412.'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccQIVdmk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_03412.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_03412.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03412.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_03412.'\x0d
         
       exitCode: 0
   -
@@ -421,10 +421,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-upapsh']
+        ignore line: [Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dkbfi6']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d07a9]
-        ignore line: [[1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_03412]
+        ignore line: [[1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -432,8 +432,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.0 (Rev4  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d07a9.dir/']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d07a9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccBmyT3V.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03412.dir/']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_03412.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccGHNqjf.s]
         ignore line: [GNU C17 (Rev4  Built by MSYS2 project) version 13.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -452,8 +452,8 @@ events:
         ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: bb5982dde5fefc6a5f7c9ef27ef1a65a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d07a9.dir/']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccBmyT3V.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03412.dir/']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccGHNqjf.s]
         ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42]
         ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
@@ -464,8 +464,8 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe  -v CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj -o cmTC_d07a9.exe -Wl --out-implib libcmTC_d07a9.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe  -v CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj -o cmTC_03412.exe -Wl --out-implib libcmTC_03412.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
@@ -483,13 +483,13 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d07a9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d07a9.']
-        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\cclaXIT0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d07a9.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d07a9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03412.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_03412.']
+        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccQIVdmk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_03412.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_03412.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\cclaXIT0.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\jjthu\\AppData\\Local\\Temp\\ccQIVdmk.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -513,7 +513,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_d07a9.exe] ==> ignore
+          arg [cmTC_03412.exe] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
@@ -522,9 +522,9 @@ events:
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
-          arg [CMakeFiles/cmTC_d07a9.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_03412.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_d07a9.dll.a] ==> ignore
+          arg [libcmTC_03412.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -581,8 +581,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-zswuma"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-zswuma"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-8xn5yo"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-8xn5yo"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -593,11 +593,11 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-zswuma'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-8xn5yo'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d00d4
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d00d4.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-zswuma/src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_d00d4.dir/src.c.obj -o cmTC_d00d4.exe -Wl,--out-implib,libcmTC_d00d4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_66e1b
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_66e1b.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-8xn5yo/src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_66e1b.dir/src.c.obj -o cmTC_66e1b.exe -Wl,--out-implib,libcmTC_66e1b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -608,8 +608,8 @@ events:
     checks:
       - "Looking for C++ include dinput.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-d06a69"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-d06a69"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m44llt"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m44llt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -620,11 +620,11 @@ events:
       variable: "DINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-d06a69'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m44llt'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_e2c20
-        [1/2] C:\\msys64\\mingw64\\bin\\g++.exe    -o CMakeFiles/cmTC_e2c20.dir/CheckIncludeFile.cxx.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-d06a69/CheckIncludeFile.cxx"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe   CMakeFiles/cmTC_e2c20.dir/CheckIncludeFile.cxx.obj -o cmTC_e2c20.exe -Wl,--out-implib,libcmTC_e2c20.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_7b337
+        [1/2] C:\\msys64\\mingw64\\bin\\g++.exe    -o CMakeFiles/cmTC_7b337.dir/CheckIncludeFile.cxx.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m44llt/CheckIncludeFile.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe   CMakeFiles/cmTC_7b337.dir/CheckIncludeFile.cxx.obj -o cmTC_7b337.exe -Wl,--out-implib,libcmTC_7b337.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -636,8 +636,8 @@ events:
     checks:
       - "Performing Test ATOMIC_TEST"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-c0pox3"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-c0pox3"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3ujzqu"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3ujzqu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -648,11 +648,11 @@ events:
       variable: "ATOMIC_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-c0pox3'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3ujzqu'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a1665
-        [1/2] C:\\msys64\\mingw64\\bin\\g++.exe -DATOMIC_TEST   -o CMakeFiles/cmTC_a1665.dir/src.cxx.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-c0pox3/src.cxx"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe   CMakeFiles/cmTC_a1665.dir/src.cxx.obj -o cmTC_a1665.exe -Wl,--out-implib,libcmTC_a1665.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_0b46f
+        [1/2] C:\\msys64\\mingw64\\bin\\g++.exe -DATOMIC_TEST   -o CMakeFiles/cmTC_0b46f.dir/src.cxx.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3ujzqu/src.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe   CMakeFiles/cmTC_0b46f.dir/src.cxx.obj -o cmTC_0b46f.exe -Wl,--out-implib,libcmTC_0b46f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -663,8 +663,8 @@ events:
     checks:
       - "Looking for include file inttypes.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dscujp"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dscujp"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-nx92zm"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-nx92zm"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/"
@@ -673,11 +673,11 @@ events:
       variable: "INCLUDE_INTTYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dscujp'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-nx92zm'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_23bed
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_23bed.dir/INCLUDE_INTTYPES_H.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dscujp/INCLUDE_INTTYPES_H.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_23bed.dir/INCLUDE_INTTYPES_H.c.obj -o cmTC_23bed.exe -Wl,--out-implib,libcmTC_23bed.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_202d5
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_202d5.dir/INCLUDE_INTTYPES_H.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-nx92zm/INCLUDE_INTTYPES_H.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_202d5.dir/INCLUDE_INTTYPES_H.c.obj -o cmTC_202d5.exe -Wl,--out-implib,libcmTC_202d5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -688,8 +688,8 @@ events:
     checks:
       - "Looking for include file stdint.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-puyccw"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-puyccw"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3yhzox"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3yhzox"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/"
@@ -698,11 +698,11 @@ events:
       variable: "INCLUDE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-puyccw'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3yhzox'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_28207
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_28207.dir/INCLUDE_STDINT_H.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-puyccw/INCLUDE_STDINT_H.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_28207.dir/INCLUDE_STDINT_H.c.obj -o cmTC_28207.exe -Wl,--out-implib,libcmTC_28207.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_efeda
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_efeda.dir/INCLUDE_STDINT_H.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3yhzox/INCLUDE_STDINT_H.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_efeda.dir/INCLUDE_STDINT_H.c.obj -o cmTC_efeda.exe -Wl,--out-implib,libcmTC_efeda.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -713,8 +713,8 @@ events:
     checks:
       - "Looking for include file sys/types.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-co0pbd"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-co0pbd"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-i61elg"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-i61elg"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/"
@@ -723,11 +723,11 @@ events:
       variable: "INCLUDE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-co0pbd'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-i61elg'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_e2d40
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_e2d40.dir/INCLUDE_SYS_TYPES_H.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-co0pbd/INCLUDE_SYS_TYPES_H.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_e2d40.dir/INCLUDE_SYS_TYPES_H.c.obj -o cmTC_e2d40.exe -Wl,--out-implib,libcmTC_e2d40.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_89a1e
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_89a1e.dir/INCLUDE_SYS_TYPES_H.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-i61elg/INCLUDE_SYS_TYPES_H.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_89a1e.dir/INCLUDE_SYS_TYPES_H.c.obj -o cmTC_89a1e.exe -Wl,--out-implib,libcmTC_89a1e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -740,8 +740,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-pbd248"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-pbd248"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-eehv4s"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-eehv4s"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -752,11 +752,11 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-pbd248'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-eehv4s'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_4cbab
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_4cbab.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-pbd248/CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_4cbab.dir/CheckIncludeFile.c.obj -o cmTC_4cbab.exe -Wl,--out-implib,libcmTC_4cbab.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_e52d7
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_e52d7.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-eehv4s/CheckIncludeFile.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_e52d7.dir/CheckIncludeFile.c.obj -o cmTC_e52d7.exe -Wl,--out-implib,libcmTC_e52d7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -769,8 +769,8 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-1gckpy"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-1gckpy"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-xmjbof"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-xmjbof"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -781,11 +781,11 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-1gckpy'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-xmjbof'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_10cb6
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_10cb6.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-1gckpy/CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_10cb6.dir/CheckIncludeFile.c.obj -o cmTC_10cb6.exe -Wl,--out-implib,libcmTC_10cb6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_0971b
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_0971b.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-xmjbof/CheckIncludeFile.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_0971b.dir/CheckIncludeFile.c.obj -o cmTC_0971b.exe -Wl,--out-implib,libcmTC_0971b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -798,8 +798,8 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-04j8sv"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-04j8sv"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k8uwks"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k8uwks"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -810,11 +810,11 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-04j8sv'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k8uwks'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_219a8
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_219a8.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-04j8sv/CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_219a8.dir/CheckIncludeFile.c.obj -o cmTC_219a8.exe -Wl,--out-implib,libcmTC_219a8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_1e335
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_1e335.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k8uwks/CheckIncludeFile.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_1e335.dir/CheckIncludeFile.c.obj -o cmTC_1e335.exe -Wl,--out-implib,libcmTC_1e335.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -827,8 +827,8 @@ events:
     checks:
       - "Check size of int16_t"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-jxz0fc"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-jxz0fc"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-xtnsjm"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-xtnsjm"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -837,11 +837,11 @@ events:
       variable: "HAVE_INT16_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-jxz0fc'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-xtnsjm'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d2fe6
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_d2fe6.dir/INT16_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-jxz0fc/INT16_SIZE.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_d2fe6.dir/INT16_SIZE.c.obj -o cmTC_d2fe6.exe -Wl,--out-implib,libcmTC_d2fe6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_60e57
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_60e57.dir/INT16_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-xtnsjm/INT16_SIZE.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_60e57.dir/INT16_SIZE.c.obj -o cmTC_60e57.exe -Wl,--out-implib,libcmTC_60e57.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -854,8 +854,8 @@ events:
     checks:
       - "Check size of uint16_t"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-x5pplm"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-x5pplm"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ek2big"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ek2big"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -864,11 +864,11 @@ events:
       variable: "HAVE_UINT16_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-x5pplm'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ek2big'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_c0c6b
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_c0c6b.dir/UINT16_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-x5pplm/UINT16_SIZE.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_c0c6b.dir/UINT16_SIZE.c.obj -o cmTC_c0c6b.exe -Wl,--out-implib,libcmTC_c0c6b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_71893
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_71893.dir/UINT16_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ek2big/UINT16_SIZE.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_71893.dir/UINT16_SIZE.c.obj -o cmTC_71893.exe -Wl,--out-implib,libcmTC_71893.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -881,8 +881,8 @@ events:
     checks:
       - "Check size of u_int16_t"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-9v0551"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-9v0551"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-u4f3f7"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-u4f3f7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -891,16 +891,16 @@ events:
       variable: "HAVE_U_INT16_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-9v0551'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-u4f3f7'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_87f84
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_87f84.dir/U_INT16_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-9v0551/U_INT16_SIZE.c"
-        FAILED: CMakeFiles/cmTC_87f84.dir/U_INT16_SIZE.c.obj 
-        C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_87f84.dir/U_INT16_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-9v0551/U_INT16_SIZE.c"
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-9v0551/U_INT16_SIZE.c:27:22: error: 'u_int16_t' undeclared here (not in a function); did you mean 'uint16_t'?
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_c460b
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_c460b.dir/U_INT16_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-u4f3f7/U_INT16_SIZE.c"
+        FAILED: CMakeFiles/cmTC_c460b.dir/U_INT16_SIZE.c.obj 
+        C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_c460b.dir/U_INT16_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-u4f3f7/U_INT16_SIZE.c"
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-u4f3f7/U_INT16_SIZE.c:27:22: error: 'u_int16_t' undeclared here (not in a function); did you mean 'uint16_t'?
            27 | #define SIZE (sizeof(u_int16_t))
               |                      ^~~~~~~~~
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-9v0551/U_INT16_SIZE.c:29:12: note: in expansion of macro 'SIZE'
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-u4f3f7/U_INT16_SIZE.c:29:12: note: in expansion of macro 'SIZE'
            29 |   ('0' + ((SIZE / 10000)%10)),
               |            ^~~~
         ninja: build stopped: subcommand failed.
@@ -916,8 +916,8 @@ events:
     checks:
       - "Check size of int32_t"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k5gdj0"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k5gdj0"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0ruap1"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0ruap1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -926,11 +926,11 @@ events:
       variable: "HAVE_INT32_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k5gdj0'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0ruap1'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_73d85
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_73d85.dir/INT32_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k5gdj0/INT32_SIZE.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_73d85.dir/INT32_SIZE.c.obj -o cmTC_73d85.exe -Wl,--out-implib,libcmTC_73d85.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_549b4
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_549b4.dir/INT32_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0ruap1/INT32_SIZE.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_549b4.dir/INT32_SIZE.c.obj -o cmTC_549b4.exe -Wl,--out-implib,libcmTC_549b4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -943,8 +943,8 @@ events:
     checks:
       - "Check size of uint32_t"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-p6m2eu"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-p6m2eu"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-rdyr51"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-rdyr51"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -953,11 +953,11 @@ events:
       variable: "HAVE_UINT32_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-p6m2eu'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-rdyr51'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_0e733
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_0e733.dir/UINT32_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-p6m2eu/UINT32_SIZE.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_0e733.dir/UINT32_SIZE.c.obj -o cmTC_0e733.exe -Wl,--out-implib,libcmTC_0e733.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_ed1f9
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_ed1f9.dir/UINT32_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-rdyr51/UINT32_SIZE.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_ed1f9.dir/UINT32_SIZE.c.obj -o cmTC_ed1f9.exe -Wl,--out-implib,libcmTC_ed1f9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -970,8 +970,8 @@ events:
     checks:
       - "Check size of u_int32_t"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0h77y8"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0h77y8"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gbahpa"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gbahpa"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -980,16 +980,16 @@ events:
       variable: "HAVE_U_INT32_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0h77y8'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gbahpa'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_140ba
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_140ba.dir/U_INT32_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0h77y8/U_INT32_SIZE.c"
-        FAILED: CMakeFiles/cmTC_140ba.dir/U_INT32_SIZE.c.obj 
-        C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_140ba.dir/U_INT32_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0h77y8/U_INT32_SIZE.c"
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0h77y8/U_INT32_SIZE.c:27:22: error: 'u_int32_t' undeclared here (not in a function); did you mean 'uint32_t'?
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_802d9
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_802d9.dir/U_INT32_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gbahpa/U_INT32_SIZE.c"
+        FAILED: CMakeFiles/cmTC_802d9.dir/U_INT32_SIZE.c.obj 
+        C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_802d9.dir/U_INT32_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gbahpa/U_INT32_SIZE.c"
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gbahpa/U_INT32_SIZE.c:27:22: error: 'u_int32_t' undeclared here (not in a function); did you mean 'uint32_t'?
            27 | #define SIZE (sizeof(u_int32_t))
               |                      ^~~~~~~~~
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0h77y8/U_INT32_SIZE.c:29:12: note: in expansion of macro 'SIZE'
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gbahpa/U_INT32_SIZE.c:29:12: note: in expansion of macro 'SIZE'
            29 |   ('0' + ((SIZE / 10000)%10)),
               |            ^~~~
         ninja: build stopped: subcommand failed.
@@ -1005,8 +1005,8 @@ events:
     checks:
       - "Check size of int64_t"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-6wql0q"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-6wql0q"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-z25r2p"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-z25r2p"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -1015,11 +1015,11 @@ events:
       variable: "HAVE_INT64_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-6wql0q'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-z25r2p'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_db0c9
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_db0c9.dir/INT64_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-6wql0q/INT64_SIZE.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_db0c9.dir/INT64_SIZE.c.obj -o cmTC_db0c9.exe -Wl,--out-implib,libcmTC_db0c9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_9e8b9
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_9e8b9.dir/INT64_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-z25r2p/INT64_SIZE.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_9e8b9.dir/INT64_SIZE.c.obj -o cmTC_9e8b9.exe -Wl,--out-implib,libcmTC_9e8b9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1032,8 +1032,8 @@ events:
     checks:
       - "Check size of short"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ubiy1j"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ubiy1j"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m7zm92"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m7zm92"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -1042,11 +1042,11 @@ events:
       variable: "HAVE_SHORT_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ubiy1j'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m7zm92'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_298ec
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_298ec.dir/SHORT_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ubiy1j/SHORT_SIZE.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_298ec.dir/SHORT_SIZE.c.obj -o cmTC_298ec.exe -Wl,--out-implib,libcmTC_298ec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_de270
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_de270.dir/SHORT_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m7zm92/SHORT_SIZE.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_de270.dir/SHORT_SIZE.c.obj -o cmTC_de270.exe -Wl,--out-implib,libcmTC_de270.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1059,8 +1059,8 @@ events:
     checks:
       - "Check size of int"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ffqjem"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ffqjem"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-litqo6"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-litqo6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -1069,11 +1069,11 @@ events:
       variable: "HAVE_INT_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ffqjem'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-litqo6'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_3b73c
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_3b73c.dir/INT_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ffqjem/INT_SIZE.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_3b73c.dir/INT_SIZE.c.obj -o cmTC_3b73c.exe -Wl,--out-implib,libcmTC_3b73c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_7b799
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_7b799.dir/INT_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-litqo6/INT_SIZE.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_7b799.dir/INT_SIZE.c.obj -o cmTC_7b799.exe -Wl,--out-implib,libcmTC_7b799.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1086,8 +1086,8 @@ events:
     checks:
       - "Check size of long"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-1jat7x"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-1jat7x"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-aps5fe"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-aps5fe"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -1096,11 +1096,11 @@ events:
       variable: "HAVE_LONG_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-1jat7x'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-aps5fe'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_470ab
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_470ab.dir/LONG_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-1jat7x/LONG_SIZE.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_470ab.dir/LONG_SIZE.c.obj -o cmTC_470ab.exe -Wl,--out-implib,libcmTC_470ab.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_042aa
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_042aa.dir/LONG_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-aps5fe/LONG_SIZE.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_042aa.dir/LONG_SIZE.c.obj -o cmTC_042aa.exe -Wl,--out-implib,libcmTC_042aa.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1113,8 +1113,8 @@ events:
     checks:
       - "Check size of long long"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-5x75k8"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-5x75k8"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hq88a8"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hq88a8"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/sfml-src/cmake/Modules/;C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/ogg-src/cmake"
@@ -1123,11 +1123,11 @@ events:
       variable: "HAVE_LONG_LONG_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-5x75k8'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hq88a8'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_f0ef2
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_f0ef2.dir/LONG_LONG_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-5x75k8/LONG_LONG_SIZE.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_f0ef2.dir/LONG_LONG_SIZE.c.obj -o cmTC_f0ef2.exe -Wl,--out-implib,libcmTC_f0ef2.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_ebd80
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles/cmTC_ebd80.dir/LONG_LONG_SIZE.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hq88a8/LONG_LONG_SIZE.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe   CMakeFiles/cmTC_ebd80.dir/LONG_LONG_SIZE.c.obj -o cmTC_ebd80.exe -Wl,--out-implib,libcmTC_ebd80.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1140,8 +1140,8 @@ events:
     checks:
       - "Performing Test HAVE_MBSTATE"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-mrdwv6"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-mrdwv6"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ywfsq0"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ywfsq0"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1152,14 +1152,14 @@ events:
       variable: "HAVE_MBSTATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-mrdwv6'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ywfsq0'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_cbc29
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_MBSTATE  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_cbc29.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-mrdwv6/src.c"
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-mrdwv6/src.c:4:9: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_99449
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_MBSTATE  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_99449.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ywfsq0/src.c"
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ywfsq0/src.c:4:9: warning: function declaration isn't a prototype [-Wstrict-prototypes]
             4 |     int main() { return 0; }
               |         ^~~~
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_cbc29.dir/src.c.obj -o cmTC_cbc29.exe -Wl,--out-implib,libcmTC_cbc29.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_99449.dir/src.c.obj -o cmTC_99449.exe -Wl,--out-implib,libcmTC_99449.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1172,8 +1172,8 @@ events:
     checks:
       - "Performing Test DODEFINE_EXTENSIONS"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-tepdd0"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-tepdd0"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-vlsrpf"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-vlsrpf"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1184,14 +1184,14 @@ events:
       variable: "DODEFINE_EXTENSIONS"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-tepdd0'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-vlsrpf'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a81db
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DDODEFINE_EXTENSIONS  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_a81db.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-tepdd0/src.c"
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-tepdd0/src.c:36:9: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_fa636
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DDODEFINE_EXTENSIONS  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_fa636.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-vlsrpf/src.c"
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-vlsrpf/src.c:36:9: warning: function declaration isn't a prototype [-Wstrict-prototypes]
            36 |     int main() { return 0; }
               |         ^~~~
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_a81db.dir/src.c.obj -o cmTC_a81db.exe -Wl,--out-implib,libcmTC_a81db.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_fa636.dir/src.c.obj -o cmTC_fa636.exe -Wl,--out-implib,libcmTC_fa636.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1202,8 +1202,8 @@ events:
     checks:
       - "Looking for byteswap.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-if5e2w"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-if5e2w"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-a3n3gh"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-a3n3gh"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1214,13 +1214,13 @@ events:
       variable: "HAVE_BYTESWAP_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-if5e2w'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-a3n3gh'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_acf76
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_acf76.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-if5e2w/CheckIncludeFile.c"
-        FAILED: CMakeFiles/cmTC_acf76.dir/CheckIncludeFile.c.obj 
-        C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_acf76.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-if5e2w/CheckIncludeFile.c"
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-if5e2w/CheckIncludeFile.c:1:10: fatal error: byteswap.h: No such file or directory
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_1db8f
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_1db8f.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-a3n3gh/CheckIncludeFile.c"
+        FAILED: CMakeFiles/cmTC_1db8f.dir/CheckIncludeFile.c.obj 
+        C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_1db8f.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-a3n3gh/CheckIncludeFile.c"
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-a3n3gh/CheckIncludeFile.c:1:10: fatal error: byteswap.h: No such file or directory
             1 | #include <byteswap.h>
               |          ^~~~~~~~~~~~
         compilation terminated.\x0d
@@ -1235,8 +1235,8 @@ events:
     checks:
       - "Looking for inttypes.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-bcwcfb"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-bcwcfb"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-jeq23h"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-jeq23h"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1247,11 +1247,11 @@ events:
       variable: "HAVE_INTTYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-bcwcfb'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-jeq23h'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_8c282
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_8c282.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-bcwcfb/CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_8c282.dir/CheckIncludeFile.c.obj -o cmTC_8c282.exe -Wl,--out-implib,libcmTC_8c282.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a4f12
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_a4f12.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-jeq23h/CheckIncludeFile.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_a4f12.dir/CheckIncludeFile.c.obj -o cmTC_a4f12.exe -Wl,--out-implib,libcmTC_a4f12.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1262,8 +1262,8 @@ events:
     checks:
       - "Looking for stdbool.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-6f3l0v"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-6f3l0v"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3rx234"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3rx234"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1274,11 +1274,11 @@ events:
       variable: "HAVE_STDBOOL_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-6f3l0v'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3rx234'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_0f234
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_0f234.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-6f3l0v/CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_0f234.dir/CheckIncludeFile.c.obj -o cmTC_0f234.exe -Wl,--out-implib,libcmTC_0f234.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_16de3
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_16de3.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-3rx234/CheckIncludeFile.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_16de3.dir/CheckIncludeFile.c.obj -o cmTC_16de3.exe -Wl,--out-implib,libcmTC_16de3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1289,8 +1289,8 @@ events:
     checks:
       - "Looking for arm_neon.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o454ox"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o454ox"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o12p79"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o12p79"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1301,13 +1301,13 @@ events:
       variable: "FLAC__HAS_NEONINTRIN"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o454ox'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o12p79'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_07743
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_07743.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o454ox/CheckIncludeFile.c"
-        FAILED: CMakeFiles/cmTC_07743.dir/CheckIncludeFile.c.obj 
-        C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_07743.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o454ox/CheckIncludeFile.c"
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o454ox/CheckIncludeFile.c:1:10: fatal error: arm_neon.h: No such file or directory
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_77412
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_77412.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o12p79/CheckIncludeFile.c"
+        FAILED: CMakeFiles/cmTC_77412.dir/CheckIncludeFile.c.obj 
+        C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_77412.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o12p79/CheckIncludeFile.c"
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o12p79/CheckIncludeFile.c:1:10: fatal error: arm_neon.h: No such file or directory
             1 | #include <arm_neon.h>
               |          ^~~~~~~~~~~~
         compilation terminated.\x0d
@@ -1322,8 +1322,8 @@ events:
     checks:
       - "Looking for x86intrin.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0zen5q"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0zen5q"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m0oa52"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m0oa52"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1334,11 +1334,11 @@ events:
       variable: "FLAC__HAS_X86INTRIN"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0zen5q'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m0oa52'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_48c04
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_48c04.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-0zen5q/CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_48c04.dir/CheckIncludeFile.c.obj -o cmTC_48c04.exe -Wl,--out-implib,libcmTC_48c04.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_518a8
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_518a8.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-m0oa52/CheckIncludeFile.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_518a8.dir/CheckIncludeFile.c.obj -o cmTC_518a8.exe -Wl,--out-implib,libcmTC_518a8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1349,8 +1349,8 @@ events:
     checks:
       - "Looking for fseeko"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o99v66"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o99v66"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gw8wpr"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gw8wpr"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1360,11 +1360,11 @@ events:
       variable: "HAVE_FSEEKO"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o99v66'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gw8wpr'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_29c70
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko -o CMakeFiles/cmTC_29c70.dir/CheckFunctionExists.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-o99v66/CheckFunctionExists.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko  CMakeFiles/cmTC_29c70.dir/CheckFunctionExists.c.obj -o cmTC_29c70.exe -Wl,--out-implib,libcmTC_29c70.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_66a5c
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko -o CMakeFiles/cmTC_66a5c.dir/CheckFunctionExists.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gw8wpr/CheckFunctionExists.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko  CMakeFiles/cmTC_66a5c.dir/CheckFunctionExists.c.obj -o cmTC_66a5c.exe -Wl,--out-implib,libcmTC_66a5c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1376,8 +1376,8 @@ events:
     checks:
       - "Performing Test HAVE_BSWAP16"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4w489y"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4w489y"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpn73"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpn73"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1388,14 +1388,14 @@ events:
       variable: "HAVE_BSWAP16"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4w489y'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpn73'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_84693
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_BSWAP16  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_84693.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4w489y/src.c"
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4w489y/src.c:1:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_5eec5
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_BSWAP16  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_5eec5.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpn73/src.c"
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpn73/src.c:1:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
             1 | int main() { return __builtin_bswap16 (0) ; }
               |     ^~~~
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_84693.dir/src.c.obj -o cmTC_84693.exe -Wl,--out-implib,libcmTC_84693.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_5eec5.dir/src.c.obj -o cmTC_5eec5.exe -Wl,--out-implib,libcmTC_5eec5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1407,8 +1407,8 @@ events:
     checks:
       - "Performing Test HAVE_BSWAP32"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k3qij5"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k3qij5"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-za7xga"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-za7xga"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1419,14 +1419,14 @@ events:
       variable: "HAVE_BSWAP32"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k3qij5'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-za7xga'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_83032
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_BSWAP32  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_83032.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k3qij5/src.c"
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-k3qij5/src.c:1:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_4a4c9
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_BSWAP32  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_4a4c9.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-za7xga/src.c"
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-za7xga/src.c:1:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
             1 | int main() { return __builtin_bswap32 (0) ; }
               |     ^~~~
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_83032.dir/src.c.obj -o cmTC_83032.exe -Wl,--out-implib,libcmTC_83032.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_4a4c9.dir/src.c.obj -o cmTC_4a4c9.exe -Wl,--out-implib,libcmTC_4a4c9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1438,8 +1438,8 @@ events:
     checks:
       - "Performing Test HAVE_LANGINFO_CODESET"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-sjkd3x"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-sjkd3x"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-2x2ibb"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-2x2ibb"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1450,13 +1450,13 @@ events:
       variable: "HAVE_LANGINFO_CODESET"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-sjkd3x'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-2x2ibb'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_ee889
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_LANGINFO_CODESET  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_ee889.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-sjkd3x/src.c"
-        FAILED: CMakeFiles/cmTC_ee889.dir/src.c.obj 
-        C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_LANGINFO_CODESET  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_ee889.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-sjkd3x/src.c"
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-sjkd3x/src.c:2:14: fatal error: langinfo.h: No such file or directory
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_289e5
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_LANGINFO_CODESET  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_289e5.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-2x2ibb/src.c"
+        FAILED: CMakeFiles/cmTC_289e5.dir/src.c.obj 
+        C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_LANGINFO_CODESET  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_289e5.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-2x2ibb/src.c"
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-2x2ibb/src.c:2:14: fatal error: langinfo.h: No such file or directory
             2 |     #include <langinfo.h>
               |              ^~~~~~~~~~~~
         compilation terminated.\x0d
@@ -1473,8 +1473,8 @@ events:
     checks:
       - "Performing Test HAVE_WERROR_FLAG"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-llo7l7"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-llo7l7"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gkzxqb"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gkzxqb"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1485,11 +1485,11 @@ events:
       variable: "HAVE_WERROR_FLAG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-llo7l7'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gkzxqb'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_df680
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_WERROR_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -Werror -o CMakeFiles/cmTC_df680.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-llo7l7/src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_df680.dir/src.c.obj -o cmTC_df680.exe -Wl,--out-implib,libcmTC_df680.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_4ffe7
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_WERROR_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -Werror -o CMakeFiles/cmTC_4ffe7.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-gkzxqb/src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_4ffe7.dir/src.c.obj -o cmTC_4ffe7.exe -Wl,--out-implib,libcmTC_4ffe7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1502,8 +1502,8 @@ events:
     checks:
       - "Performing Test HAVE_DECL_AFTER_STMT_FLAG"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dxsx1g"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dxsx1g"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-pzwy3c"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-pzwy3c"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1514,11 +1514,11 @@ events:
       variable: "HAVE_DECL_AFTER_STMT_FLAG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dxsx1g'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-pzwy3c'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d880e
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_DECL_AFTER_STMT_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -Wdeclaration-after-statement -o CMakeFiles/cmTC_d880e.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dxsx1g/src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_d880e.dir/src.c.obj -o cmTC_d880e.exe -Wl,--out-implib,libcmTC_d880e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_ab17e
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_DECL_AFTER_STMT_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -Wdeclaration-after-statement -o CMakeFiles/cmTC_ab17e.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-pzwy3c/src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_ab17e.dir/src.c.obj -o cmTC_ab17e.exe -Wl,--out-implib,libcmTC_ab17e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1531,8 +1531,8 @@ events:
     checks:
       - "Performing Test HAVE_STACKREALIGN_FLAG"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-5xevif"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-5xevif"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-b6ktjs"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-b6ktjs"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1543,11 +1543,11 @@ events:
       variable: "HAVE_STACKREALIGN_FLAG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-5xevif'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-b6ktjs'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_c06c6
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_STACKREALIGN_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -mstackrealign -o CMakeFiles/cmTC_c06c6.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-5xevif/src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_c06c6.dir/src.c.obj -o cmTC_c06c6.exe -Wl,--out-implib,libcmTC_c06c6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_6e3dd
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_STACKREALIGN_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -mstackrealign -o CMakeFiles/cmTC_6e3dd.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-b6ktjs/src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_6e3dd.dir/src.c.obj -o cmTC_6e3dd.exe -Wl,--out-implib,libcmTC_6e3dd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1560,8 +1560,8 @@ events:
     checks:
       - "Performing Test HAVE_WEFFCXX_FLAG"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-eq7ipv"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-eq7ipv"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-7h19t0"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-7h19t0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef "
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1572,11 +1572,11 @@ events:
       variable: "HAVE_WEFFCXX_FLAG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-eq7ipv'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-7h19t0'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_7bb45
-        [1/2] C:\\msys64\\mingw64\\bin\\g++.exe -DHAVE_WEFFCXX_FLAG  -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef     -Weffc++ -o CMakeFiles/cmTC_7bb45.dir/src.cxx.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-eq7ipv/src.cxx"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef  CMakeFiles/cmTC_7bb45.dir/src.cxx.obj -o cmTC_7bb45.exe -Wl,--out-implib,libcmTC_7bb45.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_843d0
+        [1/2] C:\\msys64\\mingw64\\bin\\g++.exe -DHAVE_WEFFCXX_FLAG  -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef     -Weffc++ -o CMakeFiles/cmTC_843d0.dir/src.cxx.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-7h19t0/src.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\g++.exe -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef  CMakeFiles/cmTC_843d0.dir/src.cxx.obj -o cmTC_843d0.exe -Wl,--out-implib,libcmTC_843d0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1587,8 +1587,8 @@ events:
     checks:
       - "Looking for cpuid.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dd0fcn"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dd0fcn"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-h5y5bb"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-h5y5bb"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1599,11 +1599,11 @@ events:
       variable: "HAVE_CPUID_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dd0fcn'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-h5y5bb'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a3a4d
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_a3a4d.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dd0fcn/CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_a3a4d.dir/CheckIncludeFile.c.obj -o cmTC_a3a4d.exe -Wl,--out-implib,libcmTC_a3a4d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_7193a
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_7193a.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-h5y5bb/CheckIncludeFile.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_7193a.dir/CheckIncludeFile.c.obj -o cmTC_7193a.exe -Wl,--out-implib,libcmTC_7193a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1614,8 +1614,8 @@ events:
     checks:
       - "Looking for sys/param.h"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ps27l5"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ps27l5"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-kqqyb4"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-kqqyb4"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1626,11 +1626,11 @@ events:
       variable: "HAVE_SYS_PARAM_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ps27l5'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-kqqyb4'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_e7db6
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_e7db6.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ps27l5/CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_e7db6.dir/CheckIncludeFile.c.obj -o cmTC_e7db6.exe -Wl,--out-implib,libcmTC_e7db6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_e48b9
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_e48b9.dir/CheckIncludeFile.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-kqqyb4/CheckIncludeFile.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_e48b9.dir/CheckIncludeFile.c.obj -o cmTC_e48b9.exe -Wl,--out-implib,libcmTC_e48b9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1641,8 +1641,8 @@ events:
     checks:
       - "Looking for lround"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4g5iq0"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4g5iq0"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-odji0l"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-odji0l"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1652,18 +1652,18 @@ events:
       variable: "HAVE_LROUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4g5iq0'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-odji0l'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_48072
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround -o CMakeFiles/cmTC_48072.dir/CheckFunctionExists.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4g5iq0/CheckFunctionExists.c"
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_9399e
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround -o CMakeFiles/cmTC_9399e.dir/CheckFunctionExists.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-odji0l/CheckFunctionExists.c"
         <command-line>: warning: conflicting types for built-in function 'lround'; expected 'long int(double)' [-Wbuiltin-declaration-mismatch]
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4g5iq0/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-odji0l/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
             7 |   CHECK_FUNCTION_EXISTS(void);
               |   ^~~~~~~~~~~~~~~~~~~~~
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-4g5iq0/CheckFunctionExists.c:1:1: note: 'lround' is declared in header '<math.h>'
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-odji0l/CheckFunctionExists.c:1:1: note: 'lround' is declared in header '<math.h>'
           +++ |+#include <math.h>
             1 | #ifdef CHECK_FUNCTION_EXISTS
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround  CMakeFiles/cmTC_48072.dir/CheckFunctionExists.c.obj -o cmTC_48072.exe -Wl,--out-implib,libcmTC_48072.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround  CMakeFiles/cmTC_9399e.dir/CheckFunctionExists.c.obj -o cmTC_9399e.exe -Wl,--out-implib,libcmTC_9399e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1687,9 +1687,9 @@ events:
       stdout: |
         Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_3b82a
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_3b82a.dir/CheckCPUArch.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_3b82a.dir/CheckCPUArch.c.obj -o cmTC_3b82a.exe -Wl,--out-implib,libcmTC_3b82a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_87e90
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline -o CMakeFiles/cmTC_87e90.dir/CheckCPUArch.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_87e90.dir/CheckCPUArch.c.obj -o cmTC_87e90.exe -Wl,--out-implib,libcmTC_87e90.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1702,8 +1702,8 @@ events:
     checks:
       - "Performing Test HAVE_ASSOC_MATH"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ftt54f"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ftt54f"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dixjll"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dixjll"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1714,11 +1714,11 @@ events:
       variable: "HAVE_ASSOC_MATH"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ftt54f'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dixjll'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_f37c3
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_ASSOC_MATH  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -fassociative-math -fno-signed-zeros -fno-trapping-math -freciprocal-math -o CMakeFiles/cmTC_f37c3.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-ftt54f/src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_f37c3.dir/src.c.obj -o cmTC_f37c3.exe -Wl,--out-implib,libcmTC_f37c3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a0886
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_ASSOC_MATH  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -fassociative-math -fno-signed-zeros -fno-trapping-math -freciprocal-math -o CMakeFiles/cmTC_a0886.dir/src.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-dixjll/src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_a0886.dir/src.c.obj -o cmTC_a0886.exe -Wl,--out-implib,libcmTC_a0886.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1729,8 +1729,8 @@ events:
     checks:
       - "Looking for clock_gettime"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-euv6so"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-euv6so"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-vqk5xc"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-vqk5xc"
     cmakeVariables:
       CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1740,13 +1740,13 @@ events:
       variable: "HAVE_CLOCK_GETTIME"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-euv6so'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-vqk5xc'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a3715
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_a3715.dir/CheckFunctionExists.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-euv6so/CheckFunctionExists.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=clock_gettime  CMakeFiles/cmTC_a3715.dir/CheckFunctionExists.c.obj -o cmTC_a3715.exe -Wl,--out-implib,libcmTC_a3715.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
-        FAILED: cmTC_a3715.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=clock_gettime  CMakeFiles/cmTC_a3715.dir/CheckFunctionExists.c.obj -o cmTC_a3715.exe -Wl,--out-implib,libcmTC_a3715.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_577cc
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_577cc.dir/CheckFunctionExists.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-vqk5xc/CheckFunctionExists.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=clock_gettime  CMakeFiles/cmTC_577cc.dir/CheckFunctionExists.c.obj -o cmTC_577cc.exe -Wl,--out-implib,libcmTC_577cc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_577cc.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=clock_gettime  CMakeFiles/cmTC_577cc.dir/CheckFunctionExists.c.obj -o cmTC_577cc.exe -Wl,--out-implib,libcmTC_577cc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lrt: No such file or directory\x0d
         collect2.exe: error: ld returned 1 exit status
         ninja: build stopped: subcommand failed.
@@ -1760,8 +1760,8 @@ events:
     checks:
       - "Looking for floor in m"
     directories:
-      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-qe683g"
-      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-qe683g"
+      source: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hug4y5"
+      binary: "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hug4y5"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1772,18 +1772,18 @@ events:
       variable: "HAVE_LIBM"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-qe683g'
+        Change Dir: 'C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hug4y5'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_ad8c6
-        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=floor -o CMakeFiles/cmTC_ad8c6.dir/CheckFunctionExists.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-qe683g/CheckFunctionExists.c"
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_16449
+        [1/2] C:\\msys64\\mingw64\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=floor -o CMakeFiles/cmTC_16449.dir/CheckFunctionExists.c.obj -c "C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hug4y5/CheckFunctionExists.c"
         <command-line>: warning: conflicting types for built-in function 'floor'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-qe683g/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hug4y5/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
             7 |   CHECK_FUNCTION_EXISTS(void);
               |   ^~~~~~~~~~~~~~~~~~~~~
-        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-qe683g/CheckFunctionExists.c:1:1: note: 'floor' is declared in header '<math.h>'
+        C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/CMakeFiles/CMakeScratch/TryCompile-hug4y5/CheckFunctionExists.c:1:1: note: 'floor' is declared in header '<math.h>'
           +++ |+#include <math.h>
             1 | #ifdef CHECK_FUNCTION_EXISTS
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=floor  CMakeFiles/cmTC_ad8c6.dir/CheckFunctionExists.c.obj -o cmTC_ad8c6.exe -Wl,--out-implib,libcmTC_ad8c6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=floor  CMakeFiles/cmTC_16449.dir/CheckFunctionExists.c.obj -o cmTC_16449.exe -Wl,--out-implib,libcmTC_16449.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
 ...

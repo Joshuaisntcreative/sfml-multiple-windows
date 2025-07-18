@@ -33,3 +33,12 @@ massObject::massObject()
 float massObject::getMass() const{
     return mass;
 }
+
+sf::Vector2f massObject::getPosition() const{
+    return {circle.getPosition().x, circle.getPosition().y};
+}
+
+void massObject:: updatePosition(sf::Vector2f positions)
+{
+this->setPosition({positions});
+}

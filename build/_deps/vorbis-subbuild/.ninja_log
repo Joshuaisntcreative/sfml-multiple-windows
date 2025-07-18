@@ -1,37 +1,37 @@
 # ninja log v5
 2	47	7707848302916970	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	c2301e5f1cc85162
-224	338	7724911914766678	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	905b4c71fe107394
-11	223	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	831a6a89a565f21e
-541	607	7724911917511663	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	ecc450526f39de41
-414	478	7724911916206682	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	13866b1f397a99d4
-478	541	7724911916846664	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	ad8632ef57af5f3e
-607	694	7724911918376672	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	9340398812dc6ef5
-607	694	7724911918376672	CMakeFiles/vorbis-populate-complete	9340398812dc6ef5
-541	607	7724911917511663	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	ecc450526f39de41
+126	183	7745456474892349	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	905b4c71fe107394
+11	126	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	831a6a89a565f21e
+351	411	7745456477182371	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	ecc450526f39de41
+242	293	7745456476012368	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	13866b1f397a99d4
+293	351	7745456476592367	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	ad8632ef57af5f3e
+411	490	7745456477972362	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	9340398812dc6ef5
+411	490	7745456477972362	CMakeFiles/vorbis-populate-complete	9340398812dc6ef5
+351	411	7745456477182371	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	ecc450526f39de41
 48	2379	7707848326232164	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	25a2cdbcb4580750
 2	47	7707848302916970	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	c2301e5f1cc85162
-478	541	7724911916846664	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	ad8632ef57af5f3e
-338	414	7724911915571685	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	fc57b04234c4b9f4
+293	351	7745456476592367	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	ad8632ef57af5f3e
+183	242	7745456475492359	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	fc57b04234c4b9f4
 48	2379	7707848326232164	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	25a2cdbcb4580750
-224	338	7724911914766678	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	905b4c71fe107394
-607	694	7724911918376672	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	9340398812dc6ef5
-11	223	0	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	831a6a89a565f21e
-414	478	7724911916206682	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	13866b1f397a99d4
-607	694	7724911918376672	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	9340398812dc6ef5
-338	414	7724911915571685	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	fc57b04234c4b9f4
-12	224	0	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	831a6a89a565f21e
-12	224	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	831a6a89a565f21e
-224	319	7725554409763834	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	905b4c71fe107394
-224	319	7725554409763834	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	905b4c71fe107394
-319	378	7725554410353847	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	fc57b04234c4b9f4
-319	378	7725554410353847	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	fc57b04234c4b9f4
-378	431	7725554410888839	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	13866b1f397a99d4
-378	431	7725554410888839	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	13866b1f397a99d4
-431	480	7725554411373838	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	ad8632ef57af5f3e
-431	480	7725554411373838	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	ad8632ef57af5f3e
-480	530	7725554411873856	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	ecc450526f39de41
-480	530	7725554411873856	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	ecc450526f39de41
-530	600	7725554412578852	CMakeFiles/vorbis-populate-complete	9340398812dc6ef5
-530	600	7725554412578852	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	9340398812dc6ef5
-530	600	7725554412578852	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	9340398812dc6ef5
-530	600	7725554412578852	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	9340398812dc6ef5
+126	183	7745456474892349	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	905b4c71fe107394
+411	490	7745456477972362	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	9340398812dc6ef5
+11	126	0	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	831a6a89a565f21e
+242	293	7745456476012368	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	13866b1f397a99d4
+411	490	7745456477972362	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	9340398812dc6ef5
+183	242	7745456475492359	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	fc57b04234c4b9f4
+10	133	0	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	831a6a89a565f21e
+10	133	0	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	831a6a89a565f21e
+133	202	7745457105094989	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	905b4c71fe107394
+133	202	7745457105094989	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	905b4c71fe107394
+202	262	7745457105689984	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	fc57b04234c4b9f4
+202	262	7745457105689984	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	fc57b04234c4b9f4
+263	319	7745457106269988	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	13866b1f397a99d4
+263	319	7745457106269988	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	13866b1f397a99d4
+319	369	7745457106769990	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	ad8632ef57af5f3e
+319	369	7745457106769990	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	ad8632ef57af5f3e
+369	417	7745457107250000	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	ecc450526f39de41
+369	417	7745457107250000	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	ecc450526f39de41
+417	479	7745457107869982	CMakeFiles/vorbis-populate-complete	9340398812dc6ef5
+417	479	7745457107869982	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	9340398812dc6ef5
+417	479	7745457107869982	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	9340398812dc6ef5
+417	479	7745457107869982	C:/Users/jjthu/Downloads/COMPUTER SCIENCE/NON_SCHOOL/cmake projects/sfml-multiple-windows/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	9340398812dc6ef5

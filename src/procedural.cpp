@@ -5,7 +5,6 @@
 #include <cmath>
 #include <iostream>
 
-// Gradual force simulation to overcome static friction and accelerate
 void drawProcedural(sf::RenderWindow& window) {
 
 
@@ -22,12 +21,15 @@ void drawProcedural(sf::RenderWindow& window) {
     sf::Mouse::Button button;
     while (window.isOpen())
     {
+        float deltaTime = clock.restart().asSeconds();
         while (const std::optional event = window.pollEvent())
         {
+
             if (event->is<sf::Event::Closed>())
             {
                 window.close();
             }
+
             //mouse is clicked
             if (event->is<sf::Event::MouseButtonPressed>())
             {
@@ -36,6 +38,8 @@ void drawProcedural(sf::RenderWindow& window) {
                     gui.addMass();
                 }
             }
+            gui.handlePhysics(deltaTime);
+            gui.update_positions();
         }
 
         

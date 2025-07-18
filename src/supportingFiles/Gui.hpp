@@ -6,7 +6,6 @@
 #include <optional>
 #include <vector>
 
-
 class Gui : public sf::Drawable {
 public:
     Gui();
@@ -19,6 +18,9 @@ public:
 
     void addMass();
 
+    void handlePhysics(float deltaTime);
+
+    void update_positions();
 
 
 private:

@@ -28,8 +28,8 @@ void drawTension(sf::RenderWindow& window)
     sun3.setOutlineThickness(5.f);
 
     //gravitational variables
-    const float bigG = 6.674e3;
-    float massSun1 = 1700.f;
+     const float bigG = 6.674e3;
+    float massSun1 = 2700.f;
     float massSun2 = 1200.f;
     float massSun3 = 1200.f;
 

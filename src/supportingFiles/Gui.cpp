@@ -60,3 +60,36 @@ void Gui::addMass(){
     masses.push_back(mass);
     
 }
+
+
+//this will call all massObject functions needed in order to compute all the values.
+void Gui::handlePhysics(float deltaTime)
+{
+objHandler.compute_distances();
+
+objHandler.compute_lengths();
+
+objHandler.compute_normalized_vectors();
+
+objHandler.compute_allForces();
+
+objHandler.compute_vectorForces();
+
+objHandler.compute_netForce();
+
+objHandler.compute_acceleration();
+
+objHandler.compute_velocity(deltaTime);
+
+objHandler.compute_position(deltaTime); 
+}
+
+
+void Gui::update_positions()
+{
+    std::vector<sf::Vector2f> positions = objHandler.get_positions_vector();
+    for(size_t i = 0; i < masses.size(); i++)
+    {
+        masses[i].updatePosition({positions[i]});
+    }
+}
